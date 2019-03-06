@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projet : le livre  de recettes secrète Apsyco </title>
+        <meta charset="utf-8">
+        <style>
+        
+    body{ background: rgb(135, 150, 52);
+    }
+    
+    
+    
+        </style>
+    </head>
+    <body>
+       
+        <h1 id="haut de page" >LA CUISINE APSYCO <img src="https://www.kasandbox.org/programming-images/avatars/spunky-sam-red.png"width="35"> </h1>
+        
+        <h2>Plat:</h2>
+        
+        <ol>
+            <li><a href="#prerequis1">Lapin  chasseur #1<img src="https://www.kasandbox.org/programming-images/cute/Star.png"alt="étoile du chasseur"width="20"></a></li>
+            
+            <li><a href="#recette2"> Confit de canard</a></li>
+           
+            <li><a href="#recette3"> Gigot de 7 heures</a></li>
+        </ol>
+        
+        <h2 id="prerequis1">Prérequis n°1:</h2>
+       
+       
+        <p> Lapin chasseur:  </p>
+        
+          <ul>
+            <li>Temps: 1 h 15 </li>
+            <li>Pour: 6personne  </li>
+            <h6><a href="#ingredient1"> Recette1</a> 
+          </h6>
+           </ul>
+          
+          
+          <h2 id="recette2">Prérequis n°2:</h2>
+         
+         
+          <p> Confit de canard:  </p>
+        
+          <ul>
+            <li>Temps: 2h30(+24heurs) </li>
+            <li>Pour: 4personne  </li>
+            <h6><a href="#ingredient2"> Recette2</a>
+            </h6>
+          </ul>
+         
+              
+          
+          <h2 id="recette3">Prérequis n°3:
+          </h2>
+          <p> Gigot de 7 heures:  </p>
+        
+          <ul>
+            <li>Temps: 8 heures </li>
+            <li>Pour:6 à 8personne  </li>
+            <h6><a href="#ingredient3">Recette3</a>
+            </h6>
+          </ul>
+          
+          
+          
+          
+          
+        <table>
+            <thead>
+                <tr>
+                    <th>Préparation </th>
+                    <th>info</th>
+                </tr>
+            </thead>
+            <tbody>
+                 
+                   <tr>
+                      <td><strong>LAPIN CHASSEUR :</strong><br>1 lapin de 1,8 kg coupé en morceaux,
+4 cuillères<br> à soupe d'huile
+30 g de farine,
+4 échalotes,
+<br>200 g de lardons fumés
+4 gousses d'ail
+30 cl de vin blanc<br> sec
+15 cl de bouillon de volaille
+2 tomates
+3 carottes
+250 g de champignons de Paris
+1 bouquet garni
+sel
+poivre du moulin
+                      
+                          
+                          
+                      </td>
+                      
+                      <td> <strong><em>"Cocotte ovale en fonte"<br> champignon -31 x 26 cm <br>- Le Chasseur
+Couteau<br> éminceur G29 -<br> Lame 18 cm - Global
+Spatule (R 220°C) "Exoglass  Matfer"</em></strong>
+                          
+                      </td>
+                </tr>
+           
+            </tbody>
+        </table>
+        
+    <h6 id="ingredient1"><em>Fin de préparation</em></h6>
+     <h6><a href="#mise en ouevre1">Mise en oeuvre </a></h6>
+        <table>
+            <thead>
+                <tr>
+                    <th >Préparation </th>
+                    <th>info</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                      <td><strong>CONFIT DE CANARD:</strong><br>2 canards gras des Landes de préférence ou 4 cuisses de canard gras crueset du
+gros sel
+                      </td>
+                      <td> <strong><em>                     "Film étirable en boite distributrice plastique - Largeur" 30 cm - Matfer
+Passe-sauce ou Chinois - Ø 18,5 cm - Matfer
+Louche monobloc inox - Ø 8 cm
+Thermomètre cuisson électronique -50°C à +300°C - Tellier
+Bassine pâtissière inox - Ø 32 cm - Matfer
+Poêle Elite Chef - Ø 24 "cm - Matfer"</em></strong>
+                      </td>
+                </tr>
+           </tbody>
+        </table>
+        <h6 id="ingredient2">Fin de préparation</h6>
+        <h6><a href="#mise en ouevre2">Mise en oeuvre </a></h6>
+        <table>
+            <thead>
+                <tr>
+                    <th>Préparation </th>
+                    <th>info</th>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                      <td><strong>GIGOT DE 7 HEURES:</strong><br>1 gigot d'agneau,1 carotte,2 oignons,2 gousses <br>d'ail,1 brin de thym,2 feuilles de laurier,2 brins<br> de persil frais,4 belles tomates,1/2 l de fond de<br> veau1/4, l vin blanc sec,2 cuillères à soupe de<br> farine,10 grains de poivre
+,sel,poivre.
+                      </td>
+                      <td> <strong><em>"Couteau à désosser"<br> - Matfer
+Ficelle polyester blanc 3,5/2 <br>- 1 kg
+Faitout en aluminium<br> - Ø 35 cm - Mallard Ferrière
+Cul de poule inox <br>- Ø 30 cm - Matfer
+Saucière inox 23 cl<br> - "Ibili"</em></strong>
+                      </td>
+                </tr>
+           </tbody>
+        </table>
+        <h6 id="ingredient3">Fin de préparation</h6>
+        <h6><a href="#mise en ouevre3">Mise en oeuvre</a></h6>
+        
+        
+        
+        
+        
+        
+        <h2> Manipulation </h2>
+        <h4>lapin chasseur</h4>
+        <p id="mise en ouevre1"><strong>partie 1:</strong></p> 
+        <ol>
+            <li>Pour réaliser cette recette de lapin sauté chasseur, commencer par préparer tous les ingrédients.</li>
+            <li>Peler les échalotes et les émincer finement.</li>
+            <li>Faire de même avec les gousses d'ail.</li>
+            <li>Faire chauffer 5 cl d'huile d'olive dans une cocotte en fonte.
+            </li>
+            <li>Ajouter les légumes émincés et les faire suer quelques minutes à feu modéré.</li>
+            <li>Pendant ce temps, éplucher et émincer les carottes en rondelles de 2 à 3 mm d'épaisseur.</li>
+            <li>Les ajouter aux échalotes et faire suer quelques minutes de plus.</li>
+            <li>Découper le lapin en morceaux.</li>
+            <li>Pour plus de facilité, vous pouvez demander à votre boucher de vous le découper. Il a plus l'habitude !</li>
+            <li>Ajouter les lardons fumés aux légumes...</li>
+            <li>...et les morceaux de lapin.</li>
+            <li>Les faire dorer de tous les côtés...</li>
+            <li>...puis singer.</li>
+            <li>Remuer avec une spatule pour bien mélanger la farine.</li>
+            <li>Mouiller avec le vin blanc...</li>
+            <li>...et le bouillon de volaille.</li>
+            <li>Ajouter le bouquet garni. Saler et poivrer. Cuire à couvert et laisser mijoter 30 minutes à feu doux.</li>
+            <li>Pendant ce temps, monder, épépiner et concasser grossièrement les tomates. Ôter le pied terreux des champignons, les laver et les couper en lamelles (vous pouvez vous aider d'un coupe champignons).</li>
+            <li>Ajouter les tomates...</li>
+            <li>...et les champignons dans la cocotte...</li>
+            <li> 
+...et poursuivre la cuisson à couvert pendant 20 minutes.</li>
+<li>Au terme de la cuisson retirer le couvercle...</li>
+<li>...et retirer le bouquet garni. Rectifier l'assaisonnement et réserver au chaud. Ce plat est succulent accompagné de pâtes fraîches.</li>
+<h6><em> Bonne dégustation </em> </h6>
+        </ol>
+        <h4>Confit de canard</h4>
+        <p id="mise en ouevre2"><strong>partie 2:</strong></p> 
+        <ol><li>
+Pour réaliser cette recette de confit de canard, commencer par préparer tous les ingrédients.</li>
+<li>Après avoir découpé les cuisses sur les canards gras (voir découpage à cru des canards)...</li>
+<li>...parer le surplus de graisse au couteau.</li>
+<li>Les frotter au gros sel...</li>
+<li>...sur toutes les faces.</li>
+<li> Les laisser macérer dans le gros sel pendant 24 heures au frais...</li>
+<li>...sur un plat recouvert d'un papier film.</li>
+  <li>Pendant ce temps, hacher finement tout le gras des canards.</li>
+  <li>
+Placer cette graisse hachée dans une casserole...</li>
+<li>...et faire fondre à feu très doux.</li>
+<li>La graisse fond lentement.</li>
+<li>Passer cette graisse fondue au chinois étamine ou à la passoire fine. Bien presser avec le dos d'une louche, les restes de viande afin de bien extraire la graisse.</li>
+<li>Réserver au frais jusqu'au lendemain pour la cuisson des cuisses de canard.</li>
+<li>Le lendemain, faire fondre la graisse à feu doux. Sortir les confits du sel et les rincer abondamment sous l'eau claire. Pour vous assurer que vos confits ne sont pas trop salés, vous pouvez également les laisser tremper dans l'eau claire pendant 2 à 3 heures en renouvelant l'eau toutes les heures.</li>
+<li>Bien éponger avec un papier absorbant pour retirer le maximum d'eau.</li>
+<li>Plonger les cuisses dans la graisse fondue à 70/80°C et laisser cuire deux heures. La cuisson doit être lente et régulière pendant 2 heures. L'utilisation d'un thermomètre est conseillée pour surveiller la cuisson.</li>
+<li>
+Deux heures plus tard les cuisses sont cuites. Vérifier la cuisson en plantant une fourchette dans la chair. Les dents doivent pénétrer sans résistance.</li>
+<li>
+Débarrasser dans une bassine pâtissière.</li>
+<li>Passer la graisse au chinois ou à la passoire fine, sur les cuisses confites encore chaudes. Laisser refroidir dans la graisse.</li>
+<li><strong>Préparation</strong> : Sortir les cuisses et les mettre dans une poêle à revêtement anti-adhérent, coté peau en premier.</li>
+<li>Cuire à feu moyen, avec un couvercle. À mi-cuisson, basculer la poêle au dessus d'un récipient en retenant les cuisses avec le couvercle, afin d'extraire le maximum de graisse.</li>
+<li>Retourner les cuisses bien dorées.</li>
+<li> Lorsque les confits sont chauds et dorés, ils sont prêts à être mangés.</li>
+<li>Servir avec des pommes de terre sautées ou avec une pomme de terre cuite au four et un morceau de beurre salé ou une cuillère de crème fraîche à la ciboulette</li>
+</ol>
+<h6><em> Bonne dégustation </em> </h6>
+<h4>Gigot de 7 heures</h4>
+        <p id="mise en ouevre3"><strong>partie 3:</strong></p> 
+        <ol><li>Pour réaliser cette recette de gigot de 7 heures, commencer par préparer tous les ingrédients.</li>
+        <li>Désosser le gigot en incisant le long de l'os avec un couteau à désosser.</li>
+        <li>Dégager l'articulation, et inciser pour détacher l'os.</li>
+        <li>
+Récupérer l'os et les parures.</li>
+<li>Brider avec de la ficelle de cuisine le morceau de viande afin de lui redonner la forme du gigot...</li>
+<li>...et de le maintenir ainsi durant la cuisson.</li>
+<li>Éplucher et tailler en grosse mirepoix la carotte et les oignons.</li>
+<li>Dans une sauteuse, faire revenir à l'huile de tournesol les parures, la carotte, 2 gousses d'ail entières, 2 branches de persil, les oignons et l'os du gigot.</li>
+<li>
+Dès que ça a pris une belle couleur dorée...</li>
+<li>...ajouter le fond de veau...</li>
+<li>...et le vin blanc, les grains de poivre et un peu de sel.</li>
+<li>Laisser mijoter doucement 30 minutes...</li>
+<li>...à couvert.</li>
+<li>Pendant ce temps, saisir votre gigot dans la cocotte ou dans une poêle...</li>
+<li>...sur toutes les faces. Le dorer de tous les cotés, permet de fermer les pores de viande et d'éviter que ses sucs en sortent.</li>
+<li>Dès que l'ensemble a pris une belle couleur dorée, placer votre gigot dans un récipient qui peut fermer et être luté (une terrine à Baeckoffe par exemple ou une cocotte).</li>
+<li>Ajouter autour les tomates coupées en quatre, les feuilles de laurier, la branche de thym...</li>
+<li>
+...et enfin le fond de cuisson précédemment réalisé. Ajuster éventuellement le niveau de liquide dans votre récipient avec du fond brun de veau: le gigot doit être recouvert de moitié.</li>
+<li>Dans un cul de poule, réaliser une pâte morte avec un peu de farine et d'eau.</li>
+<li> La pâte doit avoir la consistance d'une pâte à pain collante.</li>
+<li> Entourer le bord de la cocotte de cette pâte morte.</li>
+<li>Poser le couvercle par dessus et rabattre la pâte morte pour souder le couvercle. Cette opération porte le nom de luter.</li>
+<li>
+Placer au four de façon à ce que l'ensemble soit bien au milieu. Régler le thermostat à 120°C et laisser cuire 7 heures. Je préconise de réaliser cette recette la veille. À la fin de cuisson je laisse la cocotte dans le four éteint jusqu'au lendemain, ainsi le gigot refroidira lentement toute la nuit.</li>
+<li>Le lendemain...</li>
+<li>...casser les bordures en pâte morte et retirer le couvercle de la cocotte. Celui-ci risque d'être bien collé, aidez-vous d'un couteau à lame rigide pour le soulever. Attention à ne pas vous blesser.</li>
+<li>Retirer délicatement le gigot de la cocotte. La chair est très tendre, d'où la nécessité de le prendre avec précaution. Disposer les quartiers de tomates sur une plaque à part.</li>
+<li>Retirer la ficelle et positionner le gigot sur la plaque du four avec les tomates. Réchauffer votre gigot 15 à 20 minutes dans le four chaud. Pendant ce temps, passer le restant du jus de cuisson à la passoire fine. Porter à ébullition, dégraisser et rectifier l'assaisonnement. Servir la sauce à part dans une saucière. Servir en accompagnement une purée de pommes de terre maison toute simple.</li>
+        
+        
+        </ol>
+
+
+
+
+
+ <h6><em> Bonne dégustation </em> </h6>
+        <h5> <a href="#haut de page">Haut de page </a></h5> 
+    <p><em>Source: <a href="https://www.meilleurduchef.com/">Source des recette </a></em></p>
+   
+    
+    
+    <h6>Apsyco</h6>
+    </body>
+</html>
