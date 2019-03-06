@@ -1,0 +1,128 @@
+var y=-600;
+var x=25;
+var l=50;
+var s=0;
+var c=-100;
+var e=67;
+var lutin=500;
+var Fuse=-100;
+var Fuse2=-150;
+var Fuse3=-150;
+var Fuse4=-150;
+draw=function(){
+background(43, 34, 43);
+
+/*ciel*/
+fill(7, 11, 56);
+rect(0,0,400,83);
+/*fin ciel*/
+
+/*lune*/
+fill(255, 255, 255);
+ellipse(15,15,l,l);
+fill(255, 247, 0);
+ellipse(0,0,s,s);
+image(getImage("space/beetleship"),y,x,30,30);
+
+if (y>300){x+=-3 ;}
+if (x<-100){l+=1;}
+if (l>300){s+=2;}
+
+/*fin lune debut soleil*/
+
+/*Barriére*/
+fill(196, 178, 178);
+rect(0,216,401,13);
+rect(0,240,401,13);
+for(var barY=9;barY<405;barY+=29)
+{rect(barY,210,18,62);}
+//* Fin Barriére*/
+
+
+/*jardin*/
+for( var jarY=-1;jarY<401;jarY+=37)
+{for(var jarX=257;jarX<401;jarX+=22)
+{image(getImage("cute/GrassBlock"),jarY,jarX,50,50);}}
+
+if(s>400){c+=2;}
+if(c>300){c=310;}
+if(c===310){e+=-1;}
+if(e<23){e=28;}
+image(getImage("avatars/robot_male_3"),lutin,lutin,50,50);
+
+if (s>1500){lutin+=-0.5;}
+if (lutin<351){lutin=350;}
+
+if(lutin===350){Fuse+=5;}
+if (Fuse>410){Fuse=-100;}
+image(getImage("space/rocketship"),Fuse,22,100,100);
+if (lutin===350){Fuse2+=2;}
+if (Fuse2>430){Fuse2=-120;}
+image(getImage("space/rocketship"),Fuse2,-19,80,80);
+if (lutin===350){Fuse3+=3;}
+if (Fuse3>430){Fuse3=-120;}
+image(getImage("space/rocketship"),Fuse3,36,50,50);
+if (lutin===350){Fuse4+=7;}
+if (Fuse4>430){Fuse4=-120;}
+image(getImage("space/rocketship"),Fuse4,-15,100,100);
+
+var Fuse=-100;
+var Fuse2=-150;
+var Fuse3=-150;
+var Fuse4=-150;
+
+
+
+image(getImage("space/rocketship"),Fuse,22,100,100);
+image(getImage("cute/ChestClosed"),10,c,50,50);
+image(getImage("cute/Star"),e,300,20,20);
+/*Fin Jardin*/
+
+
+/*toit*/
+fill(85, 110, 40);
+triangle(200, 28, 354, 150, 50, 150);
+/*Fin toit*/
+
+/*Maison*/
+fill(168, 126, 54);
+rect(60, 150, 280, 207);
+for(var murY=60;murY<306;murY+=39)
+{for(var murX=135;murX<326;murX+=16)
+{image(getImage("cute/WoodBlock"),murY,murX,50,50);}}
+
+for(var rectY=61;rectY<300;rectY+=74){rect(rectY,157,57,52);}
+for(var FenY=65;FenY<302;FenY+=74)
+{image(getImage("cute/WindowTall"),FenY,157,50,50);}
+/*Fin Maison */
+
+
+/*porte*/
+fill(120, 80, 19);
+rect(180, 280, 40, 77);
+fill(207, 195, 27);
+ellipse(214,317,5,5);
+/*Fin Porte*/
+
+/*Buisson*/
+for (var buiSy=41;buiSy<138;buiSy+=30)
+{image(getImage("cute/TreeTall"),buiSy,308,60,60);}
+
+for(var buisY=46;buisY<138;buisY+=30)
+{image(getImage("cute/TreeUgly"),buisY,320,50,50);}
+
+for (var buiSSy=216;buiSSy<311;buiSSy+=30)
+{image(getImage("cute/TreeTall"),buiSSy,308,60,60);}
+
+for(var buissY=219;buissY<311;buissY+=30)
+{image(getImage("cute/TreeUgly"),buissY,320,50,50);}
+/*fin Buisson*/
+
+/*Avatar*/
+for(var A=79;A<320;A+=75){image(getImage("avatars/spunky-sam-red"),A,160,20,20);}
+
+y+=2;
+};
+
+
+
