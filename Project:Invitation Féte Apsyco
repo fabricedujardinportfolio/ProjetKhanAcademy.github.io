@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project:Invitation Féte Apsyco</title>
+        <style>
+        body{
+            background-color:#E7D44B;
+        }
+        #blocCentrale{
+            height:100%;
+            width:100%;
+            
+        }
+            #bloc1{background-color:#F1A607;
+            margin-left:30%;
+            width:243px;
+            opacity:0.8;
+            border:1px solid red;
+            
+                
+            }
+            #bloc2{background-color:#F0C86D;
+            height:50%;
+            padding-right:5px;
+            margin-right:5px;
+            
+            }
+           #text{
+               font-size:1.4em;
+           }
+                
+           
+            #moi{
+             height:60px;
+             float:left;
+             margin-left:6px;
+             margin-bottom:6px;
+             
+            
+            }
+            #bloc3{
+                background-color:#E7D44B;
+                width:30%;
+                height:169px;
+                overflow-x:hidden;
+                overflow-y:auto;
+                float:left;
+                
+                
+            }
+            
+                #marge{
+                    margin-left:8px;
+                }
+                
+            
+            #sourligne{
+                text-decoration:underline;
+            }
+            #Email{
+                float:right;
+                width:69%;
+            }
+            #moi1{
+                height:110px;
+                margin-left:105px;
+            }
+        </style>
+    </head>
+    <body id="blocCentrale">
+       
+       
+        <div id="bloc1">
+        <h1>...INVITATION...</h1>
+        </div>
+        
+        
+        
+        
+        <div id="bloc2">
+        <h3 id="text">INFORMATION :</h3>
+      
+        <p id="textInfo"> <img src="https://www.kasandbox.org/programming-images/avatars/spunky-sam-red.png" id="moi">Suite à ma réussite d'apprentissage de la CCI , je vous invite à partager les joies de la vie tous ensemble .Je vous ai choisi vous, car vous faite partie appart entière de ma vie et je vous considère comme ma propre famille .Pour cela j'organise un barbecue à <a href ="https://www.google.com/maps/@-22.2318749,166.5262504,15z">Saint-michel</a> et  j’espère que vous viendrez tous .
+Si dans le cas où vous ne viendrez pas je vous joins mon email en bas de l'invitation .<br></p>
+<p>il y aura au rendez-vous :<br>-Viande<br>-Salade<br>-Soda<br>-bière<br>-Jeux Virtuel<br>Et la bonne humeur sera présente.<br><br> Bien cordialement <br><strong>Mr Apsyco</strong></p>
+
+
+
+        </div>
+        
+        
+        
+        
+        <div id="bloc3">
+        <p id="sourligne"><strong>Liste d'inviter:</strong></p>
+        <p>                  
+
+                 </p>
+        <ul>
+            <li>Emma</li>
+            <li> Léa</li>
+            <li>Chloé</li>
+            <li> Lucas</li>
+            <li> Léo</li>
+            <li>Arthur</li>
+            <li>Inès</li>
+            <li>Matheo</li>
+            <li>Romane</li>
+            <li>Louna</li>
+            <li>Tom</li>
+            <li>Éva</li>
+            <li>Théo</li>
+            <li>Maelys</li>
+            <li>Gabriel</li>
+            <li>Léna</li>
+            <li>Lina</li>
+            <li>Lilou</li>
+            <li>Hugo</li>
+            <li>Mathis</li>
+            <li>Clément</li>
+            <li>Ethan</li>
+            <li>Raphaël</li>
+            <li>Yanis</li>
+            <li>Louise</li>
+            <li>Lola</li>
+            <li>Maxime</li>
+            <li>Sarah</li>
+            <li>Camille</li>
+            <li>Jade</li>
+            <li>Clara</li>
+            <li>Anaïs</li>
+            <li>Louis</li>
+            <li>Noah</li>
+            <li>Timeo</li>
+            <li>Manon</li>
+            <li>Jules</li>
+            <li>Enzo</li>
+            <li>Zoé</li>
+            <li>Nathan</li>
+        </ul>
+        </div>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+        <div>
+            <p id="Email">Pour me répondre <a href="mailto:fabricedujardin873@gmail.com">ENVOYER</a> moi un Email</p>
+        </div>
+        <img id="moi1"src="https://www.kasandbox.org/programming-images/avatars/spunky-sam-red.png">
+    </body>
+</html>
