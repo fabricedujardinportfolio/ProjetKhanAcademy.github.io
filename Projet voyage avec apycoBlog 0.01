@@ -1,1 +1,745 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Projet voyage avec apycoBlog</title>
+        <style>
+      
+    body {
+background : rgb(54, 224, 196);
+}
+       
+        .debut { 
+            color :rgb(12, 12, 237);
+            }    
+        .millieu {
+           color  :rgb(245, 242, 245);
+        }    
+        .fin {
+            color:rgb(247, 5, 37);
+        }  
+        .france1 {
+            background :rgb(12,12,237);
+        }
+        .france2{
+            background:rgb(245,242,245);
+        }
+        .france3 {
+            background : rgb(247,5,37);
+        }
+        .fondmoyen{
+               color:rgb(133, 135, 40);
+           } 
+         p{
+                text-align:center;
+            }
+        .alignement{
+                text-align:center;
+            }
+        .souligne
+            {text-decoration:underline;}
+            h2{
+                font-family: cursive;
+                font-size:20px;
+
+            }
+           table{
+            font-family: georgia,serif;
+           }
+           h1{
+            font-family:monospace;
+            background-color:white;
+            text-align:center;
+           }
+           h1:hover
+           {
+            color:white;
+            background-color:silver;
+           }
+         
+             
+            
+        </style>
+        
+        
+        
+    </head>
+    <body>
+       <h1 id="retour">Que dite vous d'une balade </h1>
+
+        <h3><em id="retour2">Sommaire</em></h3>
+        <h3 class="fondmoyen">La France</h3>
+        <ul>
+            <li>Petite histoire de france <a href="#histoire-france"> Suivre</a></li>
+            <li>Mon expérience en france <a href="#mon-histoire"> Suivre</a></li>
+            <li>Les meilleur lieu touristique <a href="#lieu-touristique"> Suivre </a></li>
+        </ul>
+        <h3 class="fondmoyen">L'australie</h3>
+        <ul>
+            <li>Petite histoire de l'australie  <a href="#histoire-australie">Suivre</a></li>
+            <li>Mon expérience en australie  <a href="#mon-histoire2">Suivre</a></li>
+            <li> Les meilleur lieu touristique  <a href="#lieu-touristique2"> Suivre</a></li>
+        </ul>
+        
+        <h2 class="souligne">Petite histoire de france</h2>
+      
+        <p><strong id="histoire-france">L'histoire de France</strong> commence avec les premières occupations humaines du territoire correspondant au pays actuel. Aux groupes présents depuis le Paléolithique et le Néolithique, sont venues s'ajouter, à <em>l'Âge du bronze et à l'Âge du fer</em>, des vagues successives de Celtes, puis au iiie siècle de peuples germains (Francs, Wisigoths, Alamans, Burgondes) et au ixe siècle de scandinaves appelés Normands.<br><br>
+
+<em><strong>Le nom de la France est issu d'un peuple germanique, les Francs. Clovis (466-511),</strong></em> roi des Francs Saliens scelle par son baptême à Reims l’alliance de la royauté franque avec l’Église catholique, qui se prolongera en France jusqu’à la séparation de l’Église et de l’État en 1905. Il unit les tribus franques salienne et ripuaire et conquiert un ensemble de territoires en Gaule et en Germanie qui sont agrandis par ses descendants mérovingiens, puis par la deuxième dynastie franque des Carolingiens fondée en 751. <em>Charlemagne</em> en particulier conquiert le nord de l'Allemagne (Saxe), l'Autriche et l'Italie. L'empire carolingien est finalement partagé en 843 entre ses petits fils par le traité de Verdun qui sépare la Francie occidentale de la Francie orientale, qui deviendra le royaume de Germanie. La troisième dynastie franque, celle des Capétiens, s'impose définitivement en Francie occidentale à partir de 987. Philippe Auguste et ses successeurs donnent une nouvelle impulsion à l'unification territoriale du royaume de France et repoussent les frontières orientales du Rhône sur les Alpes et de la Saône sur le Rhin, à partir de l'achat du Dauphiné (1349) jusqu'à l'annexion de l'Alsace (1648-1681).<br><br>
+
+Le nom de France n'est employé de façon officielle qu'à partir de <strong>1190 environ</strong>, quand la chancellerie du roi Philippe Auguste commence à employer le terme de rex Franciæ (roi de France)1 à la place de rex Francorum (roi des Francs) pour désigner le souverain. Le mot était déjà couramment employé pour désigner un territoire plus ou moins bien défini, comme on le voit à la lecture de la Chanson de Roland, écrite un siècle plus tôt. Dès juin 1205, le territoire est désigné dans les chartes sous le nom de regnum Franciæ, c’est-à-dire royaume de France en latin2,3.<br><br>
+
+<em>Les Romains avaient été les premiers à unifier l’administration de la Gaule en langue latine qui est devenue celle de l'Église.</em> Le concile de Tours réuni en 813 à l'initiative de Charlemagne impose désormais de prononcer les homélies dans les langues vulgaires au lieu du latin.<strong><em> Paris, appelée à devenir la capitale par l’avènement en 987 de la dynastie capétienne, devient un centre universitaire renommé.</em></strong> La culture française connaît un élan nouveau au contact de la Renaissance italienne lors des guerres d’Italie. Elle s'enrichit des débats sur la réforme religieuse et n’est pas par la suite étouffée comme en Italie par une contre-réforme trop rigoureuse. Elle éclot pleinement à compter du xviie siècle, développant un classicisme imprégné de cartésianisme. C’est à cette époque que le français prend sa forme moderne sous l’égide de l’Académie française.<strong> Le xviiie siècle est le siècle de la philosophie des Lumières, marqué par la promotion de la raison par les philosophes français dans les cours et capitales européennes et qui s'achève par la Révolution française.</strong><br><br>
+
+
+La Liberté guidant le peuple, une des peintures historiques françaises les plus célèbres, <em>Eugène Delacroix, 1830.</em>
+L’adoption d’un cadre administratif uniforme (département), le développement rapide du chemin de fer et l’instauration par Jules Ferry de l’école obligatoire et gratuite homogénéisent l’espace national qui connaît dans la seconde moitié du xixe siècle la révolution industrielle. La recherche et l’industrie française s’illustrent particulièrement dans les transports (automobile et aéronautique), dans la chimie et la santé ainsi que dans l’armement.<br><br>
+
+<em>La croissance économique se traduit par l'urbanisation de la population, le développement du salariat et l’amélioration du niveau de vie.</em> Le mouvement syndical se structure, les assurances sociales apparaissent et se généralisent après la Seconde Guerre mondiale. La longue crise des années 1930, l’occupation nazie et la reconstruction suscitent la définition d’une politique économique (Commissariat général du Plan) qui accompagne la formation de grands groupes de taille européenne voire mondiale. L’économie contemporaine est caractérisée par la tertiarisation des activités et la concurrence vigoureuse des pays émergents.<br><br>
+
+L’organisation de l’État s’est faite par étapes :<strong><em> instauration de l’armée et l’impôt permanents à l’issue de la guerre de Cent Ans, mise en place des intendants dans les provinces par le cardinal de Richelieu, unification du droit (Code civil) et du système judiciaire à la Révolution. Le 17 juin 1789 se constitue, par le Serment du jeu de paume, la première unité politique se réclamant du peuple français : c'est l'acte de naissance de l'État actuel</em></strong>. Une précoce tradition étatique explique le développement d’une administration dotée de puissantes prérogatives et animée par des corps d’officiers puis de fonctionnaires jaloux de leur statut, à l'encontre de laquelle se développe volontiers un esprit frondeur4. À l’heure d’une Europe des régions ouverte sur le monde, le redimensionnement de l’État français mais aussi le redéploiement de ses missions et de ses moyens sont en question et ont commencé. </p>
+ <h6> <a href="https://fr.wikipedia.org/wiki/Histoire_de_France">Source HISTOIRE</a></h6>
+
+
+<h4><strong><em class="souligne">Info à savoir</em></strong> </h4>
+<table>
+<thead>
+ <tr>
+ <th><strong class="souligne">ID</strong></th>
+ <th><strong class="souligne">Année</strong></th>
+ <th><strong class="souligne">Info</strong></th>
+    
+</tr>
+    
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>.1598</td>
+<td>  Signature de l’édit de Nantes par Henri IV.</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>.1610</td>
+    <td>Assassinat d’Henri IV</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>.1638</td>
+    <td>Naissance de Louis XIV</td>
+</tr>
+<tr>
+<td>4</td>
+<td>.1643</td>
+<td>Mort de Louis XIII.
+ </td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>.1661 </td>
+    <td>Mort de Mazarin</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td>.1661/1715</td>
+    <td>Louis XIV ne partage pas son autorité et prend seul les décisions pour le pays</td>
+</tr>
+<tr><td>7</td>
+<td>.1682</td>
+<td>Louis XIV s’installe à Versailles</td>
+</tr>
+<tr>
+    <td>8</td>
+    <td>.1685</td>
+    <td>Annulation de l’Edit de Nantes par Louis XIV</td>
+</tr>
+<tr>
+    <td>9</td>
+    <td>.1709</td>
+    <td>Durant l’hivers 100 000 morts</td>
+</tr>
+<tr>
+    <td>10</td>
+    <td>.1715</td>
+    <td>Mort de Louis XIV. Sur 54 ans de règne de Louis XIV, la France a  connu 29 ans de guerre.</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td>.1789/1791</td>
+    <td>Révolution Française  : fin de l’ancien régime.</td>
+</tr>
+<tr>
+    <td>12</td>
+    <td>.5/05/1789</td>
+    <td> Louis XVI réunit à Versailles les état-généraux.</td>
+</tr>
+<tr>
+    <td>13</td>
+    <td>.20/6/1789</td>
+    <td>L’Assemblé Nationale devient Constituante.</td>
+</tr>
+<tr>
+    <td>14</td>
+    <td>.14/7/1789</td>
+    <td>Le peuple prend la Bastille.</td>
+</tr>
+<tr>
+    <td>15</td>
+    <td>.07/1789</td>
+    <td>C’est la Grande Peur.</td>
+</tr>
+<tr>
+    <td>16</td>
+    <td>.4/08/1789</td>
+    <td>L’Assemblé vote l’abolition des privilège et de la  féodalité pour calmé le peuple.</td>
+</tr>
+<tr>
+    <td>17</td>
+    <td>.26/8/1789</td>
+    <td>La déclaration des droits de l’homme et du citoyen a été adoptée.
+</tr>
+<tr>
+    <td>18</td>
+    <td>.3/10/1789</td>
+    <td>Le roi accepte la déclaration</td>
+</tr>
+<tr>
+    <td>19</td>
+    <td>.6/10/1789</td>
+    <td>Le roi est ramené de force à Paris, sous le contrôle du peuple.</td>
+</tr>
+<tr>
+<td>20</td>
+    <td>.3/11/1789</td>
+    <td>La déclaration est publier</td>
+</tr>
+<tr>
+    <td>21</td>
+    <td>.1790/1791</td>
+    <td>Rédaction de la constitution</td>
+</tr>
+<tr>
+    <td>22</td>
+    <td>.1791</td>
+    <td>La constitution fait de la France une monarchie constitutionnelle.</td>
+</tr>
+<tr>
+    <td>23</td>
+    <td>.21/6/1791</td>
+    <td> La famille royale est arrêtée à Varennes et est discréditée aux yeux de l’opinion publique de l’époque. Le pouvoirs absolu royal s’effondre définitivement.</td>
+</tr>
+<tr>
+    <td>24</td>
+    <td>.1792</td>
+    <td>Abolition de la royauté et proclamation de la 1er République.</td>
+</tr>
+<tr>
+    <td>25</td>
+    <td>.1793</td>
+    <td>Mort de Louis XVI.</td>
+</tr>
+    
+</tbody>
+    
+    
+</table>
+
+        <h6><a href="https://www.superprof.fr/ressources/histoire/resume-hist10/4eme-hist10/chronologie-francaise-historique.html">Source date</a></h6>
+       
+        <h2 id="mon-histoire"><em class="souligne">Mon expérience en france</em></h2>
+       <span class="alignement"><h2><strong class="debut">Mon ar</strong><strong id class="millieu">river en</strong> <strong id class="fin">france</strong></h2></span>
+       
+        <p><strong class="debut">Je vais vous </strong><strong class="millieu">raconter l'un de</strong><strong class="fin"> mes plus beau</strong> <br><strong class="debut"> souvenir que</strong><strong class="millieu"> j'ai pu vivre au</strong><strong class="fin"> cours de ma vie.</strong>
+        
+     <h2 class="alignement"><strong class="debut">Mon voyage</strong><strong class="millieu"> en FRAN</strong><strong class="fin">CE</strong>
+        </h2>
+        
+        <p><strong class="debut">A mon arriver le sole</strong><strong class="millieu">il brillait de mi</strong><strong class="fin">lle  feu.</strong><br><strong class="debut"> La magie qui régné était</strong><strong class="millieu"> si merveilleuse</strong><strong class="fin"> que mon envie</strong><br>
+<strong class="debut">de découvert prenait le des</strong><strong class="millieu">sus de moi-mê</strong><strong class="fin">me en m'arrêtant</strong> <br><strong class="debut">à toute sorte de magasin et de</strong><strong class="millieu"> vendeur de sa</strong><strong class="fin">uvette</strong></p> 
+        
+        <h2 class="alignement"><strong class="france1">Mais le souven</strong><strong class="france2">ir qui m'a vr</strong><strong class="france3">aiment marqué </strong> <strong class="debut"><br>restera </strong><strong class="millieu"> à jamais là</strong><strong class="fin">
+Tour Eiffel</strong></h2>
+<img src="https://www.kasandbox.org/programming-images/space/healthheart.png" alt="le coeur de l'amour de la france " width="50"/>
+
+      
+<ul><li class="display">Liberté<img src="https://www.kasandbox.org/programming-images/space/star.png"alt="étoile de la france"width="10"></li>
+<li class="display">Égalité<img src="https://www.kasandbox.org/programming-images/space/star.png"alt="étoile de la france"width="10"></li>
+<li class="display">Fraternité<img src="https://www.kasandbox.org/programming-images/space/star.png"alt="étoile de la france"width="10"></li></ul>
+    
+      
+
+      <h6>Point à savoir<img src="https://www.kasandbox.org/programming-images/avatars/avatar-team.png" alt="femme robot explicatrise" width="53"></h6>
+<ol>
+   <li>Les plus belles femmes au monde</li>
+   <li>En mange super bien. </li>
+   <li>De très beau monument</li>
+</ol>
+    
+       
+        <P>Apsyco.<img src='https://www.kasandbox.org/programming-images/avatars/spunky-sam-red.png'alt="Apsyco" width="50"><a href="https://fr.khanacademy.org/computer-programming/projet-driv-de-project-un-voyage-en-france-avec-apsyco/5313311390990336">Source</a></p>
+        
+
+
+
+        <h3 class="alignement">"Source externe"</h3>
+        <p><a href="http://www.mexique.campusfrance.org/testimonio/mon-experience-en-france-m%E2%80%99a-permis-d%E2%80%99apprendre-beaucoup-sur-moi-meme-et-mon-identite-mex">Source </a></p>
+        <p class="alignement">Je m'appelle M.X, je suis partie en France avec le programme d’échange calédonien-Francais du Club Rotary en 2004.
+
+Lorsque j’ai découvert la France pour la première fois je me suis retrouvée face à un nouveau monde, avec une histoire et une beauté impressionnantes. J’y ai vécu dans des familles françaises qui m’ont fait partager leur vie familiale, leurs traditions mais aussi leurs voyages.
+
+Mon expérience en France m’a permis d’apprendre beaucoup sur moi-même et mon identité calédoniéne . En effet, c’était la première fois que j’allais si loin de ma famille, de mes amis et de tout ce que j’avais toujours connu, mais la France m’a reçu les bras ouverts et j’en suis tombé amoureux.
+
+Depuis mon retour je suis devenue instit à L'Alliance Française de calédonie. Partager la culture française et ce que j’ai vécu avec les adolescents et enfants de ma ville est très important pour moi.
+
+La France est partout dans le monde, ici à "Mexicali"nouméa" elle fait partie de mon quotidien.</p>
+        
+        
+            
+            
+       
+      <h2 id="lieu-touristique"><em class="souligne">Les meilleur lieu touristique</em></h2>
+      <table>
+          <thead><tr>
+          <th><strong class="souligne">ID</strong></th>
+          <th><strong class="souligne">Ville</strong></th>
+          <th><strong class="souligne">Description</strong></th>
+              
+          </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>1</td>
+                   <td  class="alignement">Paris, éternelle ville lumière</td>
+                   <td class="alignement">Le dôme des Invalides, le clocher de Saint-Germain-des-Prés, la Tour Eiffel, les deux pointes de Sainte-Clotilde : une carte postale du Paris éternel…On pourrait dresser une liste sans fin des lieux incontournables à visiter à Paris, de la Tour Eiffel aux Invalides, du Musée du Louvre au Sacré-Cœur en passant par la cathédrale Notre-Dame et le Musée du Louvre. Toutefois, c’est aussi un certain art de vivre et une vision d’un Paris romantique et bohème qui attirent les visiteurs étrangers. Rien ne vaut donc une promenade dans les jolies rues de Saint-Germain-des-Prés ou le long de la Seine pour toucher du doigt l’âme même de la Ville Lumière.</td>
+               </tr>
+               <tr>
+                   <td>2</td>
+                   <td class="alignement">Lyon, capitale<br> de la gastronomie française</td>
+                   <td class="alignement"><br>De même qu’on flâne à Paris au bord de la Seine, les berges du Rhône et de la Saône sont des lieux magnifiques de promenade à Lyon. La vieille ville vaut également la peine d’être découverte, avec ses fameuses traboules, ces petites cours intérieures traversant les groupes d’immeubles. Après avoir gravi la pente de la colline de Fourvière ou visité le Musée des Marionnettes, rien de mieux que de s’accorder une pause dans un bouchon pour déguster la gastronomie lyonnaise traditionnelle. C’est aussi grâce à la Fête des Lumières qui attire des millions de personnes chaque année en décembre que Lyon obtient cette seconde place.</td>
+               </tr>
+               <tr>
+                   <td>3</td>
+                   <td class="alignement">Lourdes, la fervente</td>
+                   <td class="alignement"><br>Cette troisième place est une surprise et pourtant cette petite ville dans le département des Hautes-Pyrénées accueille chaque année des millions de touristes, ou plus exactement de pèlerins, venus de la planète entière. La grotte de Massabielle est le site le plus visité puisque c’est là que la jeune Bernadette Soubirous a déclaré avoir vu la Vierge à plusieurs reprises en 1858. Depuis cette date, Lourdes est devenu un centre majeur de pèlerinage catholique.</td>
+               </tr>
+               <tr>
+                   <td>4</td>
+                   <td class="alignement">Toulouse, la ville rose</td>
+                   <td class="alignement"><br>Douceur de vivre et culture attendent les visiteurs de Toulouse. La Ville Rose est en effet renommée pour son ensoleillement, son magnifique centre-ville en briques de terre cuite et ses jolis musées, comme celui des Abattoirs, dédié à l’art contemporain. À ne pas manquer : la Basilique Saint-Sernin, classée sur la liste du patrimoine mondial par l’Unesco, et la célèbre place du Capitole.</td>
+               </tr>
+               <tr>
+                   <td>5</td>
+                   <td class="alignement">Nice, perle de la Côte d’Azur</td>
+                   <td class="alignement"><br>La Côte d’Azur fait rêver partout dans le monde. Chaque année des millions de visiteurs se pressent dans la ville pour profiter de la plage, des boutiques de luxe, des restaurants gastronomiques, de l’ambiance du carnaval de Nice mais aussi de la beauté de l’arrière-pays niçois. La Promenade des Anglais ou encore le Musée Chagall sont deux lieux à voir absolument à Nice.</td>
+               </tr>
+               <tr>
+                   <td>6</td>
+                   <td class="alignement"> La Rochelle, la belle atlantique</td>
+                   <td class="alignement"><br>La Rochelle est située dans le département de la Charente-Maritime, sur la côte atlantique. Son centre ancien est magnifiquement préservé et les tours médiévales du Vieux Port sont particulièrement impressionnantes. Grâce à un pont, on peut désormais facilement rejoindre l’Ile de Ré depuis La Rochelle.</td>
+                   
+               </tr>
+               <tr>
+                   <td>7</td>
+                   <td class="alignement"> Lille la chaleureuse</td>
+                   <td class="alignement"><br>Oubliez tous vos clichés sur le Nord et foncez à Lille ! Vous y découvrirez une ville incroyablement dynamique et sympathique. Parmi les incontournables pour visiter Lille, on peut citer la Grand Place bien sûr, la Vieille-Bourse, le formidable Musée des Beaux-Arts, mais n’oubliez pas non plus de déguster une gaufre flamande ou de chiner à la Braderie de Lille, la plus importante de France.</td>
+               </tr>
+               <tr>
+                   <td>8</td>
+                   <td class="alignement">Marseille, la méditerranéenne</td>
+                   <td class="alignement"><br>Vous avez été nombreux à vous étonner de l’absence de Marseille dans la précédente édition du classement : voilà qui est réparé ! La bouillonnante cité, plus ancienne ville de France, ne cesse de fasciner, d’étonner, de questionner… Elle ne laisse personne indifférent ! Quels sont les endroits à voir absolument à Marseille ? Promenez-vous du côté du Vieux-Port, crapahutez dans le quartier du Panier, montez à Notre-Dame-de-la-Garde, frissonnez au stade Vélodrome, déambulez le long de la Corniche et pénétrez dans le magnifique parc national des Calanques…</td>
+               </tr>
+               <tr>
+                   <td>9</td>
+                   <td class="alignement">Strasbourg, la fière Alsacienne</td>
+                   <td class="alignement"><br>Si Strasbourg attire les touristes tout au long de l’année, notamment grâce à sa cathédrale et au joli quartier de la Petite France, c’est surtout en décembre qu’elle est la plus visitée. Le Marché de Noël de Strasbourg est en effet réputé pour être l’un des plus beaux marchés de Noël de France. C’est aussi le point idéal pour parcourir en voiture la superbe Route des Vins d’Alsace.
+
+</td>
+               </tr>
+               <tr>
+                   <td>10</td>
+                   <td class="alignement">Bordeaux, tout un art de vivre</td>
+                   <td class="alignement"><br>Bordeaux est prisée des Français pour sa qualité de vie et des touristes étrangers pour la beauté des paysages le long de la Garonne et la présence de nombreux monuments historiques et musées, comme le Port de la Lune, le Musée des Beaux-Arts ou encore le Musée d’Aquitaine. Bordeaux est aussi le point de départ idéal pour la découverte de la Gironde en voiture, entre grands vignobles, océan et forêts de pins.</td>
+               </tr>
+           </tbody>
+      </table>
+      <a href="https://www.carigami.fr/magazine/un-avant-gout-de-vacances/france/les-10-villes-les-plus-touristiques-de-france.html">Source du classement </a>
+        
+        <h5>Quelque chose qui ma extrément exité?<img src="https://www.kasandbox.org/programming-images/avatars/questionmark.png" alt="Bonne question" width="50"> </h5>
+        
+        <span>Les fille!<img src="https://www.kasandbox.org/programming-images/creatures/Hopper-Cool.png"alt="baby cool" width="20"> </span>
+       <p><a href ="#retour2">Haut de page </a></p>
+
+
+
+        <h2 id="histoire-australie"><em class="souligne">Petite histoire de l'australie </em></h2>
+        <p class="alignement">
+
+L'Histoire de l'Australie remonte aux premières migrations vers le continent australien, qui débutèrent dans le nord vers 60 000 ans avant notre ère1.
+
+Peuplée probablement pendant plus de 50 000 ans par les seuls Aborigènes, l'Australie voit, à partir du xviie siècle, des équipages et des explorateurs européens reconnaître ses côtes. En 1788, la colonisation britannique a commencé par la fondation d’un camp pénitentiaire à Sydney. Dans les années 1850, les colonies australiennes sont devenues des démocraties parlementaires autonomes, et le 1er janvier 1901, elles se fédérèrent et formèrent le Commonwealth d’Australie.
+
+L'Australie envoya des soldats pour lutter aux côtés de la Grande-Bretagne pendant les deux Guerres mondiales. En Australie, on se souvient de la bataille des Dardanelles en 1915 connue en Australie sous le nom de bataille de Gallipoli comme le « baptême du feu » de la nouvelle nation et pendant la Seconde Guerre mondiale, la population sentit la menace d'une invasion japonaise peser sur le pays.
+
+L'après-guerre fut une période de prospérité pour l'Australie et la politique d'immigration multiculturelle fut élargie par les gouvernements successifs. Au cours de cette période une alliance avec les États-Unis a été formalisée et le commerce avec l'Asie s'est accru considérablement.</p>
+<a href="https://fr.wikipedia.org/wiki/Histoire_de_l%27Australie">Source Histoire</a>
+
+<h4><strong><em class="souligne">Info à savoir</em></strong> </h4>
+<table>
+<thead>
+ <tr class="alignement">
+ <th><strong class="souligne">ID</strong></th>
+ <th><strong class="souligne">Année</strong></th>
+ <th><strong class="souligne">Info</strong></th>
+ </tr>
+ </thead>
+ 
+<tbody>
+<tr>
+    <td>1</td>
+    <td class="alignement">28 avril 1770</td>
+    <td><br>	Le capitaine James Cook, accoste sur la côte est de l' Australie et en prend possession au nom de l'Angleterre.</td>
+</tr>
+<tr>
+   <td>2</td>
+    <td class="alignement">1788</td>
+    <td ><br>Etablissement de la 1ère colonie à Sydney, après l'arrivée d'une flotte composée de 11 navires et chargées de 1500 forçats et de militaires accompagnés de leur famille.</td>
+</tr>
+<tr>
+  <td>3</td>
+    <td class="alignement">1797</td>
+    <td ><br>Le mouton mérinos est introduit sur le continent.</td>
+</tr>
+<tr>
+   <td>4</td>
+    <td class="alignement">1804</td>
+    <td><br>Début de la colonisation de la Tasmanie.</td>
+</tr>
+<tr>
+  <td>5</td>
+    <td class="alignement">1813</td>
+    <td><br>George Baxland, William Wentworth et William Lawson réussisent à se frayer un chemin à travers les Blue Mountains et ouvrent la voie vers l'exploration des terres intérieures.</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td class="alignement">1829</td>
+    <td><br>Fondation de Perth.</td>
+</tr>
+<tr>
+  <td>7</td>
+    <td class="alignement">1835</td>
+    <td><br>Fondation de Melbourne par John Batman, fermier Tasmanien, sur des terres "achetées" aux aborigènes locaux.</td>
+</tr>
+<tr>
+  <td>8</td>
+    <td class="alignement">1851</td>
+    <td><br>Création de l'État du Victoria.Début de la ruée vers l'or après la découverte de filons au New South Wales et au Victoria.</td>
+</tr>
+<tr>
+   <td>9</td>
+    <td class="alignement">1859</td>
+    <td><br>Création de l'État du Queensland.</td>
+</tr>
+
+<tr>
+   <td>10</td>
+  <td class="alignement">1862</td>
+    <td><br>John Stuart réussit la 1ère traversée du continent du sud au nord.</td>
+</tr>
+<tr>
+    <td>11</td>
+    <td class="alignement">1872</td>
+    <td><br>Le télégraphe relie Adélaïde à Darwin en passant par Alice Springs.></td>
+</tr>
+<tr>
+<td>12</td>
+<td class="alignement">1873</td>
+<td><br>Découverte du site d' Uluru (Ayers Rock).</td>
+</tr>
+<tr>
+    <td>13</td>
+    <td class="alignement">1876</td>
+    <td><br>Mort du dernier aborigène de Tasmanie</td>
+</tr>
+<tr>
+    <td>14</td>
+    <td class="alignement">1890</td>
+    <td><br>Découverte de filons d'or au Western Australia.</td>
+</tr>
+<tr>
+<td>15</td>
+    <td class="alignement">1er janvier 1901</td>
+    <td><br>Les 6 colonies fondées se fédèrent en une seule nation : création du Commonwealth of Australia.</td>
+</tr>
+
+<tr>
+<td>16</td>
+    <td class="alignement">1914-1918</td>
+    <td><br>1ère Guerre Mondiale.
+Plus de 300 000 soldats volontaires sont envoyés aux cotés de la mère patrie l'Angleterre.</td>
+</tr>
+<tr>
+    <td>17</td>
+    <td class="alignement">1920</td>
+    <td><br>Création de Qantas, compagnie aérienne nationale.</td>
+</tr>
+<tr>
+   <td>18</td>
+    <td class="alignement">1923</td>
+    <td><br>Création de la Vegemite (pâte à tartiner salée au goût... nous vous laissons le soin d'apprécier...).</td>
+</tr>
+<tr>
+    <td>19</td>
+    <td class="alignement">1929</td>
+    <td><br>La Grande Dépression frappe le pays.</td>
+</tr>
+<tr>
+    <td>20</td>
+    <td class="alignement">1935</td>
+    <td><br>Ouverture du Sydney Harbour Bridge.</td>
+</tr>
+<tr>
+    <td>21</td>
+    <td class="alignement">1948</td>
+    <td><br>Fabrication de la Holden. 1ère voiture entièrement fabriquée en Australie.</td>
+</tr>
+<tr>
+    <td>21</td>
+    <td class="alignement">1956</td>
+    <td><br>Jeux Olympiques organisés à Melbourne.
+La télévision arrive en Australie.</td>
+</tr>
+<tr>
+    <td>22</td>
+    <td class="alignement">1967</td>
+    <td ><br>Un référendum accorde massivement le statut de citoyen aux Aborigènes.</td>
+</tr>
+<tr>
+    <td>23</td>
+    <td class="alignement">1971</td>
+    <td ><br>Neville Bonner devient le 1er député aborigène.</td>
+</tr>
+<tr>
+    <td>24</td>
+    <td class="alignement">1973</td>
+    <td><br>Ouverture de l'Opéra de Sydney.</td>
+</tr>
+<tr>
+    <td>25</td>
+    <td class="alignement">1976</td>
+    <td><br>Advance Australia Fair devient l'hymne national australien.</td>
+</tr>
+<tr>
+    <td>26</td>
+    <td class="alignement">1981</td>
+    <td><br>Augmentation de l'immigration asiatique.</td>
+</tr>
+<tr>
+    <td>27</td>
+    <td class="alignement">1986</td>
+    <td><br>L'Australia Act rompt les liens légaux avec la Grande-Bretagne.</td>
+</tr>
+<tr>
+    <td>28</td>
+    <td class="alignement">1992-1993</td>
+    <td><br>Le Mabo Ruling reconnaît la présence des Aborigènes avant la colonisation anglaise.</td>
+    </tr>
+ <tr>
+    <td>29</td>
+    <td class="alignement">1997</td>
+    <td><br>Publication du rapport Bringing Them Home. Les gouvernements des Etats présentent leurs excuses aux populations aborigènes notamment sur les sujet des "générations volées". Le gouvernement Howard refuse les excuses officielles.</td>
+    </tr>
+<tr>
+    <td>30</td>
+    <td class="alignement">2000</td>
+    <td><br>Sydney accueille les Jeux Olympiques.</td>
+</tr>
+<tr>
+    <td>31</td>
+    <td class="alignement" >13 février 2008</td>
+    <td><br>Le gouvernement de Kevin Rudd fait des excuses officielles aux populations aborigènes au nom du gouvernement fédéral.</td>
+</tr>
+<tr>
+    <td>32</td>
+    <td class="alignement">24 juin 2010</td>
+    <td><br>L'Australie nomme pour la première fois de son histoire une femme au poste de Prime Minister (Premier Ministre), Julia Gillard, parti travailliste.</td>
+</tr>
+<tr>
+    <td>33</td>
+    <td class="alignement">Janvier 2011</td>
+    <td><br>Le cyclone Yasi frappe sévèrement le Queensland et cause d’énormes dégâts. Les fermiers et les hoteliers sont lourdement touchés alors que l’économie du Queensland se nourrit essentiellement de l’agriculture et de l’industrie touristique.</td>
+</tr>
+<tr>
+    <td>34</td>
+    <td class="alignement">Septembre 2012</td>
+    <td><br>Les immigrants clandestins (appelés les “boat people”) arrivent en masse en Australie qui signe des accords avec Nauru et la Papouasie Nouvelle-Guinée pour envoyer ces demandeurs-d'asile dans des camps situés sur ces îles.</td>
+</tr>
+<tr>
+    <td>35</td>
+    <td class="alignement">Juin 2013</td>
+    <td><br>Kevin Rudd reprend son poste de Premier Ministre et évince Julia Gillard</td>
+</tr>
+<tr>
+    <td>36</td>
+    <td class="alignement">7 septembre 2013</td>
+    <td><br>Le parti libéral gagne les élections législatives et Tony Abbott devient le nouveau Premier ministre.</td>
+</tr>
+<tr>
+    <td>36</td>
+    <td class="alignement">15-16 décembre 2014</td>
+    <td><br>Prise d'otages dans un café situé sur Martin Place à Sydney. Le terroriste se réclamait de l'Etat Islamique. Toute l'Australie s'est profondément sentie choquée et blessée après ce tragique évènement.</td>
+</tr>
+<tr>
+    <td>37</td>
+    <td class="alignement">14 septembre 2015</td>
+    <td><br>Le Premier Ministre Tony Abbott affronte un vote de défiance organisé par son parti (Liberal) et perd face à Malcolm Turnbull qui devient le nouveau Premier Ministre du pays.</td>
+</tr>
+</tbody>
+</table>
+<a href="https://www.guide-australie.com/australie-histoire.html">Source date</a>
+
+
+
+        <h2 id="mon-histoire2"> <em class="souligne">Mon expérience en australie</em></h2>
+        <h3 class="alignement">"Source externe"</h3>
+        <p><a href="https://nowmadz.com/destinations/australie/bilan-voyage-en-australie.html">Source</a></p>
+        <p class="alignement">Notre voyage en Australie s’achève. 47 jours passés à parcourir les paysages de l’Australie: bien sûr, on est bien loin d’avoir tout vu de ce fantastique pays. Mais une chose est certaine: on ne regrette absolument pas d’avoir inclus cette étape à notre itinéraire!
+
+ 
+
+On a adoré la liberté que notre van nous a apporté pendant un peu plus d’un mois.
+
+Quel plaisir de se sentir aussi libre, de faire ce qu’on voulait, d’aller où on voulait! L’ennui, c’est que ce pays est tellement vaste, et qu’il y a tellement de choses à y voir qu’on a eu parfois du mal à faire des choix!!
+
+Notre itinéraire en Australie a été un peu chaotique : on est partis dans le désert du centre rouge, pour finalement revenir à Sydney et remonter sur la côte jusqu’à Cairns. Ça fait beaucoup de kilomètres, mais finalement on se dit qu’on aura eu la grande chance de découvrir une diversité de paysages,  et une multitude de contrastes. Quand on y repense, on a même l’impression que ça ne peut pas être dans le même pays, tout ça, tant les paysages sont différents!
+
+On a beaucoup aimé le sud ouest, de Melbourne à Adelaîde, où on a alterné entre l’océan et les parcs nationaux. L’océan à Byron Bay, Port Macquarie, et aux Whitsundays était tout simplement magnifique. Le désert, c’était incroyable aussi. Un autre monde. Les parcs nationaux, immenses et remplis d’animaux en tout genre nous ont toujours enchantés. Enfin, on a des images plein la tête…
+
+ 
+
+Et puis l’Australie, on aime aussi parce que c’est un mode de vie à part.
+
+On a vraiment aimé le contact avec les australiens. Simple. Facile. On a l’impression qu’ils ne se prennent pas la tête. Pas au sérieux. Là bas on dirait qu’il n’y a pas de différence entre un ouvrier et un cadre par exemple. On n’a pas vu des gens méprisants, ou qui regardent de haut sous prétexte qu’ils ont «réussi» Tout le monde a l’air au même niveau, et incroyablement tranquille. A Sydney, les «costumes cravates» se retrouvent dans les pubs à 18h, après le boulot et s’envoient des bières entre collègues, riant tous à gorges déployées.
+
+On entamait facilement la conversations, n’importe où. Dans un supermarché, dans une station service, au camping, partout. Tranquillement, et sans jugement, sans se sentir jaugé, évalué avant. Et ça, qu’est ce que ça fait du bien! Bref, l’Australie, oui, on peut dire que c’est cool. Évoluer dans une société comme celle ci nous a fait un bien fou pendant ces 6 semaines. On a retrouvé le moral, on a la patate, on parle de nos projets, de notre avenir, on a envie de faire plein de choses. Il y a de l’énergie qui circule dans ce pays, c’est certain!
+
+ 
+
+itineraire road trip australie
+Notre Itinéraire en van. Melbourne, Adelaide, Coober Pedy, Port Victoria, Sydney, Brisbane, Cairns… puis retour à Sydney, et Melbourne, en avion cette fois!
+
+ 
+
+Pour conclure, on conseillerait à tout le monde de venir faire un tour dans ce fabuleux pays.
+
+Pourtant, on n’était vraiment pas motivés avant, on n’envisageait même pas de le visiter pendant notre voyage. C’est dire s’il en fallait pour nous convaincre, et l’Australie a rempli toutes ses promesses!
+
+Avant on ne comprenait pas vraiment l’intérêt des jeunes qui venaient y faire un PVT. On connaissait assez peu le pays, et on en avait surtout une image assez faussée.
+
+Là bas, on a rencontré quelques jeunes en PVT, et des français qui travaillent et vivent sur place. Tous étaient comme des dingues. Même s’ils n’avaient pas forcément le boulot du siècle, ils avaient un cadre de vie, une tranquillité, une sérénité qu’on ne retrouve pas ailleurs. Avec une bonne touche de fun en plus. Le rêve quoi :-)
+
+Du coup, nous on dit «oui, oui, oui» au jeune qui s’interroge sur un éventuel PVT en Australie
+
+Alors, c’est sûr, il faudra bosser, et puis le coût de la vie est plus élevé qu’en France, va peut être falloir se priver de quelques trucs, quoique. On a rencontré des jeunes qui bossaient en tant que peintres pour 25 Aud de l’heure (20€) ! Et  le jeu en vaut largement la chandelle…!
+
+ </p>
+ 
+ <h2 id="lieu-touristique2"><em class="souligne">Les meilleur lieu touristique</em></h2>
+
+<table>
+          <thead>  
+                  <tr>
+                        <th><strong class="souligne">ID</strong></th>
+                        <th><strong class="souligne">Ville</strong></th>
+                        <th><strong class="souligne">Description</strong></th>
+              
+                  </tr>
+           </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="alignement">ULURU - AYERS ROCK</td>
+                <td class="alignement"><br>Uluru, aussi appelé Ayers Rock est probablement le site les plus célèbre d’Australie. Situé au coeur du Centre Rouge, cet immense rocher est un symbole du pays mais aussi de l’histoire aborigène du Territoire du Nord. Une des caractéristiques d’Uluru est son changement de couleurs en fonction de la lumière au fil de la journée, virant au rouge intense au coucher du soleil. Le rocher est un lieu sacré pour les aborigènes, il a une grande importance culturelle pour le peuple Anangu. Le parc national d’Uluru-Kata Tjuta est classé au patrimoine mondial de l’UNESCO.
+Les hôtels sont situés à 15 kilomètres à l’extérieur du parc dans la petite ville de Yulara. Une visite au centre culturel permet la découverte des traditions, des légendes du Dreamtime, des langues et de l’histoire des aborigènes. Plusieurs circuits allant de 30 minutes à 3-4 heures de marche permettent de découvrir Uluru, ses particularités géologiques, ses points d’eau, ses richesses naturelles et ses peintures.
+A 40 km à l’ouest d’Ayers Rock, admirez les 36 dômes de Kata Tjuta et profitez d’une vue panoramique sur le parc national d’Uluru-Kata Tjuta.
+Découvrez des sites témoignant de 10 000 ans d’histoire aborigène.</td>
+           </tr>
+           <tr>
+                <td>2</td>
+                <td class="alignement">SYDNEY</td>
+                <td class="alignement"><br>Un voyage à Sydney, c’est découvrir la splendide baie de Port Jackson, les quartiers historiques de Darling Harbour et The Rocks jusqu’à l’opéra, les plages dorées de Bondi ou de Manly. Un séjour à Sydney, c’est aussi un tour aux Royal Botanic Gardens qui abritent des milliers d’espèces de plantes et une visite de la magnifique collection d’art aborigène de la galerie d’art du New South Wales. Si vous êtes en vacances en famille, immiscez-vous dans la vie des animaux de Taronga Zoo et de l’aquarium de Sydney, puis dégustez un succulent « fish & chips » à Watson’s Bay. 
+Ville de contrastes, Sydney vous réserve d’agréables surprises, et mérite que l’on y consacre 3 à 4 jours pour découvrir les attractions les plus mémorables. Sydney est l’une des villes les plus agréables et faciles à visiter dans le monde. Parmi ses nombreuses attractions, trois sont emblématiques : son opéra, son pont et sa baie.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="alignement">LA GRANDE BARRIÈRE DE CORAIL</td>
+            <td class="alignement"><br>La Grande Barrière de Corail, inscrite au patrimoine mondial, s’étend sur plus de 2000 kilomètres dans l’Océan Pacifique, et descend le long de la côte Est du Queensland. C’est le récif le plus étendu au monde, il commence légèrement au Sud du Tropique du Capricorne à Bundaberg et se termine dans le détroit de Torres au Cape York. Comptant 2 900 récifs et 900 îles, ce massif corallien est considéré comme le plus grand organisme vivant de la terre et le seul visible de l’espace. Les milliers d’îles, d’îlots et d’atolls composant la Grande Barrière de corail constituent la huitième merveille du monde et le « plus grand aquarium au monde ». 
+La Grande Barrière de Corail, abrite des dizaines de milliers d’espèces de poissons tropicaux colorés, quelques 500 variétés d’algues, des éponges, des crustacés, des coraux de tailles, de formes et de couleurs différentes et d’autres animaux du monde marin comme les baleines, les dauphins et les tortues.
+La diversité de ses fonds et sa faune sous-marine très riche, en font le bonheur des amateurs de plongée avec ou sans bouteille.
+Cairns et Port Douglas, au Nord du Queensland, sont les principaux points de départ vers la Grande Barrière de Corail. De nombreuses villes le long de la côte du Queensland, comme Townsville, Mission Beach, Airlie Beach, Gladstone ou encore Bundaberg offrent aussi des départs quotidiens en bateau vers le récif. Plusieurs îles continentales ont aussi été transformées en centre de vacances.
+Un séjour sur la Grande Barrière de Corail est un incontournable dans un voyage en Australie.</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td class="alignement">KANGAROO ISLAND</td>
+    <td class="alignement"><br>C’est au large d’Adelaide en Australie du Sud que se trouve Kangaroo Island, un petit coin de paradis. C’est l’île nature par excellence, l’un des rares endroits en Australie où l’on peut observer en liberté : des kangourous, des pingouins, des opossums, des wallabies, des émeus, des koalas et des ornithorynques. On peut aussi plonger, et observer et nager avec les phoques et y découvrir les baleines, en saison.
+L’île de Kangaroo a été préservée des marins et des nuisibles jusqu’au 19ème siècle, grâce à ses falaises et son isolement du continent. C’est sans doute ce qui vaut à l’île d’avoir toujours conservé une faune et une flore exceptionnelles.
+Il y a peu d’endroits au monde où le choc émotionnel est aussi intense. Kangaroo Island, ce ne sont pas moins de 18 parcs naturels et quelques merveilles incontournables... à découvrir en circuit organisé ou en tour au volant de votre véhicule.</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td class="alignement">PARC NATIONAL DE KAKADU</td>
+    <td class="alignement"><br>Situé à 3 heures de Darwin, le Parc national de Kakadu est un des incontournables du Top End et du Territoire du Nord. Inscrit au Patrimoine Mondial de l’Unesco, Kakadu est le plus grand parc d’Australie, il s’étend sur 200 km. Refuge d’une incroyable diversité de faune et de flore, le Kakadu National Park est éblouissant de beauté. Paysages de billabongs, marécages denses, gorges plongeantes, chutes d’eau, forêts, falaises de grès et végétation luxuriante, le plus grand parc national d’Australie offre des paysages aussi variés qu’incroyables. On y trouve aussi une grande richesse culturelle. Les sites artistiques aborigènes de Nourlangie et Ubirr Rock, datant de milliers d’années, offrent des balades au milieu des plus belles peintures rupestres aborigènes de Kakadu. Pour en apprendre un peu plus, visitez les centres culturels de Bowali et de Warradjan. Faites une croisière sur la Mary River ou aux Yellow Waters qui abritent cacatoès, crocodiles, aigles, cormorans ou encore ibis et grimpez au sommet des chutes spectaculaires de Jim Jim et Twin Falls qui offrent une vue imprenable sur l’ensemble du parc.</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td class="alignement">GREAT OCEAN ROAD</td>
+    <td class="alignement"><br>Explorez l’une des routes côtières les plus touristiques et les plus belles au monde, la Great Ocean Road, elle offre de superbes vues sur l’océan, une côte sauvage, des forêts tropicales et des lacs de cratères qui abritent des animaux fascinants et des plantes exotiques. Vous pourrez apercevoir des koalas et des kangourous partout, ainsi que des baleines franches durant leur migration annuelle. Découvrez les Twelve Apostles, de fabuleuses sculptures façonnées par l’océan, caractéristique principale de la région sauvage de Port Campbell National Park. Le lever et le coucher du soleil offrent des vues spectaculaires sur les 12 Apôtres aux couleurs changeantes en fonction de la lumière. Des tours et circuits sont proposés au départ de Melbourne. La Great Ocean Road se découvre facilement soit par la route en lacets ou vue des airs, c’est encore plus impressionnant.</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td class="alignement">LE KIMBERLEY</td>
+    <td class="alignement"><br>itué au nord-ouest de l’Australie occidentale, le Kimberley est un des derniers espaces vierges de l’Australie aux paysages de savanes, de baobabs et parsemé de gorges. C’est l’une des régions les plus reculées et les plus spectaculaires de l’Australie. 2 300 km séparent Perth de Broome, la ville principale à l’ouest du Kimberley, connue pour sa célèbre plage de Cable Beach bordant l’Océan Indien. Côté East Kimberley, Kununurra est la plus grande ville, située à 1 000 km de Broome par la Great Northen Highway, à la frontière du Territoire du Nord.
+Le Kimberley est la région la moins peuplée du pays, la plupart de ses habitants sont aborigènes. Défiez l’outback australien en empruntant la célèbre piste 4x4 de la Gibb River Road, 660 kilomètres reliant Broome et Kununurra, l’une des plus grandes aventures en 4x4 d’Australie. Au cœur du Kimberley, ne manquez pas le parc national de Purnululu appelé aussi Bungle Bungles. 
+Un voyage au Kimberley, ce sont des vacances qui se préparent, quelque soit la formule choisie, un autotour, un safari camping au coeur du bush ou un circuit organisé.</td>
+</tr>
+<tr>
+    <td>8</td>
+    <td class="alignement">L’OUTBACK - FLINDERS RANGES</td>
+    <td class="alignement"><br>L’Australie du Sud est l’endroit idéal pour partir explorer l’Outback. Au nord de la Péninsule d’Eyre et des Flinders Ranges, s’étend l’Outback de l’Australie du Sud. 
+Au départ d’Adelaide pour atteindre l’Outback, prenez tout simplement l’Explorer’s Way en direction d’Alice Springs, sur la route ne manquez pas l’incroyable ville minière de Coober Pedy et ses paysages lunaires ! Ou lancez-vous sur l’une des routes asphaltées les plus rectilignes d’Australie, qui traverse l’incroyable plaine du Nullarbor, 2800 km séparent Adelaide de Perth, un voyage insolite, loin d’être ennuyant...
+Préparez-vous à y voir des déserts à perte de vue où les fleurs sauvages foisonnent au printemps, des lacs salés étincelants et des dunes de sable colorées par des couchers de soleil sans fin. N’oubliez pas d’observer le ciel nocturne rempli de millions d’étoiles, un spectacle époustouflant, et de partager un verre et une conversation avec une des personnalités du cru dans un des pubs de l’Outback.
+L’Outback du sud de l’Australie se compose du splendide désert de Simpson, du paysage rocheux du Sturt Stony Desert et d’immenses lacs salés, notamment le lac Eyre. On accède à l’Outback en suivant les nombreuses routes et pistes 4x4 qui traversent ces terres isolées.</td>
+</tr>
+<tr>
+
+    <td>9</td>
+    <td class="alignement">TASMANIE</td>
+    <td class="alignement"><br>Le seul État insulaire et aussi le plus petit d’Australie, l’île sauvage de Tasmanie est devenue une destination vacances incontournable d’Australie. Classée au patrimoine de l’UNESCO, la Tasmanie possède les dernières grandes régions sauvages tempérées du globe. Le caractère insulaire de la Tasmanie en a fait une destination unique pour sa flore et sa faune préservées, cette île abrite de nombreuses espèces endémiques dont le Diable de Tasmanie. Jusqu’à l’arrivée de l’explorateur Abel Tasman, les aborigènes de Tasmanie y ont vécu durant 500 générations. Cet état témoigne d’un héritage aborigène et d’une époque coloniale importantes.  
+Au départ de Hobart, la capitale, ou Launceston découvrez les paysages tasmaniens tels que les Cradle Mountains où vit le Diable de Tasmanie, le Freycinet et la splendide baie de Wineglass, les îles de Maria ou Bruny. Ici en 90 minutes de route, le paysage peut passer des vallées de la forêt tropicale et des lacs de montagne à de longues plages de sable blanc. En circuit guidé, séjour roue libre et voyage en liberté, à pied, en canoë ou en kayak, tous les moyens sont bons pour voyager en Tasmanie.</td>
+</tr>
+<tr>
+    <td>10</td>
+    <td class="alignement">LES WHITSUNDAYS</td>
+    <td class="alignement"><br>L’archipel des Whitsundays regroupe 74 îles continentales entre Mackay et Airlie Beach. C’est James Cook qui découvrit les Whitsundays, un des plus beaux sites au monde, privilégié des amateurs de voile, aux plages de sable blanc, aux eaux d’un bleu profond et abritant une faune sous-marine extraordinaire. Un petit paradis tropical où l’on peut naviguer sur une mer d’azur, camper sur des plages de sable couleur perle sous le ciel étoilé, ou plonger dans les eaux turquoise sur la Grande Barrière de Corail.
+De Whitehaven Beach à Hayman Island en passant par Hamilton Island, les Whitsundays ont quelque chose à offrir à tout le monde, des vacances familiales aux escapades amoureuses luxueuses et romantiques à deux.
+Les Whitsundays se découvrent avec une location de voilier, en croisière d’île en île ou jetez l’ancre pour un séjour dans un des resorts de l’archipel. Peu d’îles dans les Whitsundays offrent une infrastructure hôtelière. L’île la plus fréquentée et la plus grande est Whitsunday Island.
+De juillet à septembre, vous pouvez observer les baleines en migration. 
+Les Whitsundays jouissent d’un climat tropical toute l’année, avec une température moyenne de l’eau et de l’air de 25°C.</td>
+</tr>
+
+
+
+
+        </tbody>
+
+</table>
+
+
+<a href="https://australie-a-la-carte.com/top-10-australie">Source du classement</a>
+
+       <p><a href ="#retour">Haut de page </a></p>
+        
+        
+    </body>
+</html>
