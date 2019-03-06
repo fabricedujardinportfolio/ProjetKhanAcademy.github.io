@@ -1,0 +1,160 @@
+
+
+    var xPose = 248;// etoile1
+    var yPose = 78;
+
+    var xPose2 = 173;//etoile2
+    var yPose2 =200;
+
+    var xPose3 =287; //etoile3
+    var yPose3 = 280;
+
+    var xPose4 = 350; //etoile4
+    var yPose4 = 250;
+
+    var xPose5 = 156;//etoile5
+    var yPose5 =153;
+
+    var xPose6 = 116;//etoile 6
+    var yPose6 = 90;
+
+    var xPose7 = 331;// etoile 7
+    var yPose7 = 124;
+
+
+
+    var finEtoilex=100;//etoile 7
+    var finEtoiley=100;
+
+     
+   
+   
+    var soleilUpx=52; // nouveau Soleil
+    var soleilUpy=50;
+    
+    var etoileFondx = 3;
+    var etoileFondy= 3;
+    
+     
+
+
+
+draw = function() {
+    background(27, 28, 36);
+    fill(247, 247, 242);
+    ellipse(xPose, yPose, 10, 10);
+    ellipse(xPose2,yPose2,10,10);
+    ellipse(xPose3,yPose3,10,10);
+    ellipse(xPose4,yPose4,10,10);
+    ellipse(xPose5,yPose5,10,10);
+    ellipse(xPose6,yPose6,10,10); 
+    ellipse(xPose7,yPose7,10,10);
+    
+    
+    stroke(247, 242, 242);
+    
+    line(xPose,yPose,xPose-80,yPose+100);
+    line(xPose2,yPose2,xPose2-80,yPose2+100);
+    line(xPose3,yPose3,xPose3-80,yPose3+100);
+    line(xPose4,yPose4,xPose4-80,yPose4+100); 
+    line(xPose5,yPose5,xPose5-80,yPose5+100);
+    line(xPose6,yPose6,xPose6-80,yPose6+100);
+    line(xPose7,yPose7,xPose7-80,yPose7+100);
+     noFill();
+     fill(247, 255, 0);
+     ellipse(16,10,soleilUpx,soleilUpy);
+    
+     noFill();//terre
+     fill(91, 113, 199);
+     ellipse(200,200,200,200);
+     
+     fill(89, 148, 0); // amerique nord
+     beginShape();
+     curveVertex(10,  114);
+     curveVertex(176,  200);
+     curveVertex(227,  122);
+     curveVertex(140,  135);
+     curveVertex(177, 200);
+     curveVertex(222, 0);
+     endShape();
+     
+      
+     beginShape();// amerique sud
+     curveVertex(0,  257);
+     curveVertex(211,  298);
+     curveVertex(215,  219);
+     curveVertex(152,  250);
+     curveVertex(230, 281);
+     curveVertex(250,-20 );
+     endShape();
+  
+     beginShape();// Europe
+     curveVertex(100,  95);
+     curveVertex(273,  137);
+     curveVertex(232,  187);
+     curveVertex(251,  245);
+     curveVertex(273, 131);
+     curveVertex(-168,-200 );
+     endShape();
+     
+     
+     fill(252, 252, 252);
+     ellipse (300,40,etoileFondx,etoileFondy);
+     ellipse (200,310,etoileFondx,etoileFondy);
+     ellipse (150,350,etoileFondx,etoileFondy);
+     ellipse (75,150,etoileFondx,etoileFondy);
+     ellipse (110,50,etoileFondx,etoileFondy);
+     ellipse (28,200,etoileFondx,etoileFondy);
+     ellipse (300,120,etoileFondx,etoileFondy);
+     ellipse (10,310,etoileFondx,etoileFondy);
+     ellipse (360,300,etoileFondx,etoileFondy);
+     ellipse (10,59,etoileFondx,etoileFondy);
+     ellipse (300,15,etoileFondx,etoileFondy);
+     ellipse (360,50,etoileFondx,etoileFondy);
+     ellipse (340,150,etoileFondx,etoileFondy);
+     ellipse (23,260,etoileFondx,etoileFondy);
+     ellipse (350,350,etoileFondx,etoileFondy);
+     ellipse (18,104,etoileFondx,etoileFondy);
+     ellipse (260,50,etoileFondx,etoileFondy);
+     ellipse (70,57,etoileFondx,etoileFondy);
+     ellipse (30,180,etoileFondx,etoileFondy);
+     ellipse (75,211,etoileFondx,etoileFondy);
+     
+     ellipse (350,200,etoileFondx,etoileFondy);
+     ellipse (320,220,etoileFondx,etoileFondy);
+     ellipse (110,300,etoileFondx,etoileFondy);
+     ellipse (200,360,etoileFondx,etoileFondy);
+     ellipse (240,335,etoileFondx,etoileFondy);
+     ellipse (130,100,etoileFondx,etoileFondy);
+     ellipse (200,36,etoileFondx,etoileFondy);
+     ellipse (60,350,etoileFondx,etoileFondy);
+     ellipse (11,366,etoileFondx,etoileFondy);
+     ellipse (10,400,etoileFondx,etoileFondy);
+     
+     ellipse (mouseX,mouseY,15,15);
+     ellipse (mouseY-200,mouseX-200 ,15,15);
+  
+  
+     
+xPose+=1;
+yPose-=1;
+
+xPose2+=1;
+yPose2-=1;
+
+xPose3+=1;
+yPose3-=1;
+
+xPose4+=1;
+yPose4-=1;
+
+xPose5 +=1;
+yPose5-=1;
+
+xPose6+=1;
+yPose6-=1;
+
+xPose7+=1;
+yPose7-=1;
+
+};
