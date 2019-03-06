@@ -1,0 +1,263 @@
+//loup
+
+var bodyX = 200;
+var bodyY = 370;
+var tail= 160;//largeur téte
+
+
+
+//.........................................\\
+var tailYeux= tail/8;//dimension yeux par rapport à la téte .
+var yeuxXg=bodyX-50;
+var yeuxXd=bodyX+50;
+var yeuxYh=bodyY-25;
+//..........................................\\
+var tailOreil=tail/7;//160/8=20 tail oreil par rapport téte.
+var oreillXg=bodyX-40;// oreil Gauche 
+var oreillXd=bodyX+40;//oreil Droite
+var oreillYh=bodyY-120;//hauteur des oreill
+var antenneLx=bodyX-5;
+var antenneHy=bodyY;
+
+
+
+
+
+//..........................................\\
+//nez
+var nezX=bodyX;
+var nezY=bodyY;
+
+//...........................................\\
+//bouche 
+ var boucheX=bodyX;
+ var boucheY=bodyY;
+ var tailBouche=tail/6;
+
+
+
+
+
+    
+draw = function() {
+    background(17, 36, 36);
+    fill(11, 19, 56);
+    rect(-14,0,432,97,22);//ciel
+     noFill();
+    fill(28, 16, 6);
+    triangle(0, 99, 350, 97, 200, 9);
+    fill(38, 23, 11);
+    triangle(-50, 98, 182, 99, 89, 9);
+    triangle(200, 98, 600, 97, 350, 9);
+    stroke(3, 3, 3);
+    strokeWeight(3);
+    line(293,28,300,23);//1er oiseaux
+    line(293,28,287,23);
+    line(190,40,197,37);//2éme oiseaux
+    line(183,37,188,40);
+    noStroke();
+   
+    noFill();
+    fill(252, 252, 252);
+  
+    ellipse(25,25,100,100);//lune
+    noFill();
+    
+    fill(245, 245, 245);
+    noStroke();
+    stroke(250, 245, 245);
+    strokeWeight(5);
+    line(160,100,0,400);//bordure chemin G
+    line(400,400,240,100);//bordure cheminD
+    
+ //ligne perspective****************************************
+    // coté GAUCHE 
+    //1er cerceuil gauche
+    noStroke();//gris*****
+    stroke(66, 64, 64);
+    line(20,318,20,270);
+    fill(66, 64, 64);
+    quad(21, 270, 20, 320, 0, 355, 0, 301);
+    stroke(247, 242, 242);//blanc******
+    line(0,301,18,271); 
+    line(0,268,19,269);
+    noStroke();
+    fill(205, 230, 205);
+    triangle(-20, 269, 18, 269, -1, 302);
+    noStroke();
+    
+    //2éme cerceuil Gauche
+    stroke(66, 64, 64);//gris non voyant  
+    line(87,195,89,165);
+    line(32,281,36,247);
+    line(40,246,0,247);
+    line(34,288,21,288);
+    line(88,199,36,287);
+    fill(66, 64, 66);
+    quad(88, 166, 89, 194, 36, 281,35 , 244);
+    rect(0,250,34,12);
+    rect(24,266,7,18);
+    noStroke();
+     stroke(252, 252, 252);//Blanc voyant
+    line(35,243,87,164);
+    noStroke();
+    fill(205, 230, 205);
+    quad(0, 161, 89, 161, 34, 245, 0, 245);
+   
+   
+    //3éme cerceuil Gauche 
+    noStroke();
+    stroke(66, 64, 64);//gris
+    line(137,105,137,113);
+    line(138,114,110,163);
+    line(110,142,98,162);
+    line(107,143,0,150);
+    line(104,164,92,165);
+    fill(66, 64, 64);//gris
+    triangle(105, 164, 136, 107, 105, 147);
+    rect(0,147,104,11);
+    rect(92,143,14,20);
+    noStroke();
+    fill(205, 255, 205);//Blanc
+    quad(0, 102, 135, 102, 102, 145, 0, 145);
+    noStroke();
+    stroke(66, 64, 64);//gris
+    strokeWeight(8);
+    line(2,124,3,97);
+    line(4,124,18,108);
+    stroke(66, 64, 64);
+    line(18,104,18,87);
+    rect(5,97,6,14);
+    noStroke();
+    stroke(205, 230, 205);//blanc
+    line(2,93,18,87);
+    line(0,87,16,86);
+    noStroke();
+  
+   
+    
+     //croie droite
+     stroke(247, 239, 239);//1er croie
+     strokeWeight(20);
+     fill(240, 255, 240);
+     line(362,280,362,215);
+     strokeWeight(15);
+     line(377,255,348,215);
+    
+     
+     strokeWeight(15);//2éme croie
+     line(313,205,313,161);
+     strokeWeight(11);
+     line(323,187,304,160);
+    
+     strokeWeight(15);
+     line(365,205,365,161);
+     strokeWeight(11);
+     line(375,187,353,160);
+     line(413,187,402,160);
+  
+     strokeWeight(10);//3éme croie
+     line(284,154,286,131);
+     strokeWeight(7);
+     line(290,148,280,132);
+    
+     strokeWeight(10);
+     line(325,154,325,131);
+     strokeWeight(7);
+     line(330,148,320,132);
+    
+     strokeWeight(7);
+    line(367,148,357,132);
+    strokeWeight(7);
+ line(361,152,361,132);
+     
+     strokeWeight(10);
+    line(391,155,391,131);
+    strokeWeight(7);
+    line(398,148,385,132);
+    
+    strokeWeight(6);//4éme croie
+    line(264,121,264,109);
+    strokeWeight(4);
+    line(261,108,267,116);
+    
+    strokeWeight(6);
+    line(300,121,300,109);
+    strokeWeight(4);
+    line(297,108,303,116);
+    
+    strokeWeight(6);
+    line(333,121,333,109);
+    strokeWeight(4);
+    line(330,108,337,117);
+    
+    strokeWeight(6);
+    line(362,122,362,109);
+    strokeWeight(4);
+    line(359,110,366,118);
+    
+     strokeWeight(6);
+    line(388,122,388,109);
+    strokeWeight(4);
+    line(385,110,391,118);
+    
+    noStroke();
+    
+    
+    
+    //millieu
+    fill(82, 82, 82);
+    quad(162, 97, 238, 97, 399, 400, 1, 400);
+   
+    
+    
+    
+     //..............monstre................\\
+     stroke(77, 19, 19);//orielle
+    line(antenneLx,antenneHy,antenneLx-33,antenneHy-108);
+    line(antenneLx+34,antenneHy-65,antenneLx+44,antenneHy-107);
+    noStroke();
+    stroke(179, 114, 179);
+    fill(98, 27, 122);
+    ellipse(oreillXg,oreillYh,tailOreil,tailOreil);
+    ellipse(oreillXd,oreillYh,tailOreil,tailOreil);
+    noStroke();
+    
+   
+   
+   // tete
+    ellipse(bodyX, bodyY, tail, tail);
+    
+   
+   
+
+    
+     
+     
+     noFill();//yeux
+     fill(15, 4, 4);
+    ellipse(yeuxXg+20,yeuxYh,tailYeux,tailYeux-10);
+    ellipse(yeuxXd-20,yeuxYh,tailYeux,tailYeux-10);
+    
+     //nez
+    fill(46, 36, 48);
+    ellipse(nezX,nezY,tailYeux,tailYeux-10);
+    
+    //bouche
+    noFill();
+    fill(0, 0, 0);
+    ellipse(boucheX,boucheY+23,tailBouche,tailBouche-20);
+    
+    
+    //tail=tail+1;
+    tailYeux=tailYeux+0.4;
+    tailOreil=tailOreil+0.8;
+    tailBouche=tailBouche+1.0;
+    image(getImage("avatars/spunky-sam-red"), 331,-20, 80, 80);
+    
+        
+
+    
+};
+
+
