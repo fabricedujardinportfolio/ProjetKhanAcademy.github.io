@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Un Voyage en FRANCE avec Apsyco</title>
+        <style>
+        body {
+            background :rgb(112, 150, 147);
+        }
+       
+        .debut { 
+            color :rgb(12, 12, 237);
+            }    
+        .millieu {
+           color  :rgb(245, 242, 245);
+        }    
+        .fin {
+            color:rgb(247, 5, 37);
+        }  
+        .france1 {
+            background :rgb(12,12,237);
+        }
+        .france2{
+            background:rgb(245,242,245);
+        }
+        .france3 {
+            background : rgb(247,5,37);
+        }
+        </style>
+        </head>
+        
+        
+        <body>
+        <h1><strong class="debut">LE</strong><strong class="millieu"> VOYAGE</strong><strong class="fin"> PARFAIT</strong></h1>
+        
+        <p> <strong class="debut">Je vais vous </strong><strong class="millieu">raconter l'une de</strong><strong class="fin"> mes plus belles</strong> <br><strong class="debut"> expériences que</strong><strong class="millieu"> j'ai pu vivre au</strong><strong class="fin"> cours de ma vie.</strong>
+        
+        <h2><strong class="debut">Mon voyage</strong><strong class="millieu"> en FRAN</strong><strong class="fin">CE</strong>
+        </h2>
+        <p><strong class="debut">A mon arriver le sole</strong><strong class="millieu">il brillait de mi</strong><strong class="fin">lle de feu.</strong><br><strong class="debut"> La magie qui régné était</strong><strong class="millieu"> si merveilleuse</strong><strong class="fin"> que mon envie</strong><br>
+<strong class="debut">de découvert prenait le des</strong><strong class="millieu">sus de moi-mê</strong><strong class="fin">me en m'arrêtant</strong> <br><strong class="debut">à toute sorte de magasin et de</strong><strong class="millieu"> vendeur de sa</strong><strong class="fin">uvette</strong> 
+        
+        <h2><strong class="france1">Mais le souven</strong><strong class="france2">ir qui m'a vr</strong><strong class="france3">aiment marqué </strong> <strong class="debut"><br>restera </strong><strong class="millieu"> à jamais là</strong><strong class="fin">
+Tour Eiffel</strong></h2>
+<img src="https://www.kasandbox.org/programming-images/space/healthheart.png" alt="le coeur de l'amour de la france " width="50">
+
+       <h6>
+<ul><li>Liberté<img src="https://www.kasandbox.org/programming-images/space/star.png"alt="étoile de la france"width="10"></li>
+<li>Égalité<img src="https://www.kasandbox.org/programming-images/space/star.png"alt="étoile de la france"width="10"></li>
+<li>Fraternité<img src="https://www.kasandbox.org/programming-images/space/star.png"alt="étoile de la france"width="10"></li></ul>
+    
+      </h6>
+
+      <h6>Point à savoir<img src="https://www.kasandbox.org/programming-images/avatars/avatar-team.png" alt="femme robot explicatrise" width="53">
+<ol><li>Les plus belles femmes au monde</li><li>En mange super bien. </li><li>De très beau monument</li>
+    
+</ol>
+    
+    
+
+     </h6>
+        
+        
+        </P>Apsyco.<img src='https://www.kasandbox.org/programming-images/avatars/spunky-sam-red.png'alt="Apsyco" width="50">
+            
+        </p>
+        
+    </body>
+</html>
