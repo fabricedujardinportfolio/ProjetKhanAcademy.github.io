@@ -1,0 +1,35 @@
+
+
+CREATE TABLE marchandiserecue
+( id INTEGER PRIMARY KEY,
+marchandise TEXT ,kilo INTEGER,
+prixEuro INTEGER ); 
+
+
+INSERT INTO marchandiserecue VALUES (1, "orange", 88 ,100);
+INSERT INTO marchandiserecue VALUES (2,"Banane",90,100);
+INSERT INTO marchandiserecue VALUES (3,"Pomme",60,189);
+INSERT INTO marchandiserecue VALUES (4,"Fraise",50,800);
+INSERT INTO marchandiserecue VALUES (5,"pain",30,1000);
+INSERT INTO marchandiserecue VALUES (6,"Patiserie",70,500);
+
+INSERT INTO marchandiserecue VALUES (7,"viande",900,1000);
+INSERT INTO marchandiserecue VALUES (8,"charcuterie",40,600);
+
+INSERT INTO marchandiserecue VALUES (9,"fromage",35,700);
+INSERT INTO marchandiserecue VALUES (10,"yaourt",60,120);
+INSERT INTO marchandiserecue VALUES (11,"lait",45,500);
+
+INSERT INTO marchandiserecue VALUES (12,"RayonEnfant",250,1700);
+
+INSERT INTO marchandiserecue VALUES (13,"Alcool", 55,1000);
+
+INSERT INTO marchandiserecue VALUES (14,"ordinateur",15,15000);
+INSERT INTO marchandiserecue VALUES (15,"logicielDéveloppeur",1,20000);
+
+SELECT SUM(prixEuro) FROM marchandiserecue;
+
+SELECT* FROM marchandiserecue WHERE prixEuro > 99 ORDER BY  prixEuro 
+
+
+ 
