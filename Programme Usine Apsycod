@@ -1,0 +1,174 @@
+
+
+var speed=4;
+var speedy=4;
+var speedyl=4;
+var y = 240;
+var t=100;
+var d=50;
+   
+
+
+    draw= function() {
+         y= y+speed;
+        
+        if (y>380){
+            speed=-2;}
+        if (y<245) 
+        {speed=2;}
+ 
+
+    background(247, 0, 0);
+image(getImage("avatars/spunky-sam-red"),15,-202,400,400);
+    
+    fill(217, 217, 217);
+    rect(0,201,400,170);
+    fill(217, 217, 217);
+    rect(0,372,400,27);
+
+    fill(184, 180, 184);
+        rect(230,373,160,24);
+    fill(255, 255, 255);
+ 
+    ellipse(y,386,30,30);
+    
+  
+    fill(173, 173, 173);
+    
+    triangle(-1,200,401,200,200,29);
+     fill(227, 211, 227);
+    triangle(-1,200,401,200,200,371);
+    
+    stroke(255, 237, 255);
+    strokeWeight(5);
+    line(11,200,200,39);
+    line(11,200,200,361);
+    line(200,39,389,200);
+    line(200,361,389,200);
+    line(385,200,15,200);
+    
+    noStroke();
+    fill(0, 255, 208);
+    rect(33,186,16,13);
+    fill(0, 9, 255);
+    rect(50,176,16,23);
+    fill(0, 255, 30);
+    rect(66,164,16,35);
+    fill(242, 255, 0);
+    rect(82,151,16,47);
+    fill(255, 102, 0);
+    rect(98,143,16,56);
+    fill(221, 0, 255);
+    
+    rect(114,162,16,37);
+    fill(255, 255, 255);
+    rect(130,162,16,37);
+    fill(74, 53, 74);
+    rect(146,162,16,37);
+    fill(29, 82, 0);
+    rect(162,162,16,37);
+    fill(255, 255, 0);
+    rect(178,162,16,37);
+    fill(55, 41, 252);
+    rect(195,162,16,37);
+    fill(237, 78, 203);
+    rect(211,162,16,37);
+    fill(77, 235, 203);
+    rect(228,162,16,37);
+    fill(90, 106, 117);
+    rect(244,162,16,37);
+    fill(8, 13, 105);
+    rect(260,162,16,37);
+    fill(47, 105, 8);
+    rect(276,162,16,37);
+    
+    fill(255, 230, 0);
+    rect(292,146,16,53);
+    fill(255, 157, 0);
+    rect(308,153,16,47);
+    fill(0, 255, 0);
+    rect(324,169,16,31);
+    fill(0, 43, 255);
+    rect(340,177,16,23);
+    fill(255, 0, 217);
+    rect(356,189,16,11);
+    noStroke();
+    
+    
+    
+    ellipse(mouseX, mouseY, 4, 4); //sourie
+    textSize(15);
+    fill(0, 0, 0);
+    var debut="AcheteMOI";
+    text(debut,mouseX,mouseY);
+    
+    fill(21, 88, 97);//texte
+    textSize(30);
+    text("LOGICIEL DEVELOPPEUR", 10, 30);
+    textSize(14);
+    fill(0, 0, 0);
+    textSize(14);
+    text("Vous cherchez le ratio parfait entre qualité et  prix imbattable ? ", 10, 87);
+  textSize(20);
+    text("                                     'APSYCODE'",-65,121);
+    textSize(16);
+    
+    text("                              Est faits pour vous!!",-7,160);
+    textSize(14);
+    text("la réputation de APSYCODE est liée  à l'utilisation débordante ",10,212); 
+    text("de tout programmeur digne de ce nom . Il a été essayer puits",10,228);
+    text("adopté et surtout évalué comme numéro1 sur le marché de la",10,245);
+    text("programmation.  .  ",10,262);
+    text("    De nombreux programmeurs réputés tels que",-2,280);
+    text("   'DAVID LECLERC' utilisent APSYCODE dans leurs quotidiens",0,302);
+    textSize(20);
+    fill(0, 0, 0);
+    text("    le monde ne sera que plus ",10,329);
+    text("    ouvert après l'avoir en ",10,349);
+    text("   votre possession",10,369);
+    fill(0, 0, 0);
+    textSize(30);
+    text("AcheteMOI",237,396);
+    image(getImage("avatars/spunky-sam-red"), 378, 361, 10, 10);
+
+      var drawTitre= function(){
+          t=t+speedy;
+          d=d+speedyl;
+          if(t<10){
+              speedy=2;}
+              if (t>200){
+                  speedy=-2;}
+                 
+                 if(d<25)
+                 {speedyl=2;}
+                 
+                  
+                  if (d>385)
+                  {speedyl=-2;}
+                
+
+var yourName = "APSYCODE";
+
+fill(222, 0, 222);
+textSize(20);
+text("Achéte , " + yourName, t, d);
+
+};
+
+
+    drawTitre();
+   var drawMoi = function(x,y){
+       var x = 107;
+       var y = 250;
+      image (getImage("avatars/spunky-sam-red"),260,100,10,10);
+    
+    };
+     var drawMoi2 = function(x,y){
+       var x = 103;
+       var y = 150;
+      image (getImage("avatars/spunky-sam-red"),128,100,10,10);
+    
+    };
+    drawMoi();
+  drawMoi2();
+ }; 
