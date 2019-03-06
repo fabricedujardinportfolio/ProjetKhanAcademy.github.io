@@ -1,0 +1,75 @@
+var xPositions = [200,205,230,260,280,310,340,360,400,180,160,140,120,100,80,60,40,20,1,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,50,60,80,90,150,180,200,240,260,270,240,10];
+
+var yPositions = [0,50,90,12,120,30,-30,150,-100,-130,60,-60,-100,0,50,-50,-100,110,-200,-300,-250,-350,-50,-180,-210,-260,-84,150,-360,-400,-370,-150,-50,-100,-120,-140,100,-200,-350,-300,-280,-260,-310,-340,-290,-370,-150,-200,-260,-210,-180,-240,-225,-190,-284,-384,300,-310,-400,-300,-400,-500,-600,-350,-400,-450,-460,-510,80,-391,-601,];//*71*//
+
+var couleur = [color(237, 23, 70),color(55, 255, 0),color(230, 195, 18),color(0, 21, 250),color(245, 0, 245),color(125, 129, 179),color(49, 245, 0),color(138, 129, 10),color(103, 168, 151),color(247, 10, 223),color(8, 8, 8),color(255, 5, 5),color(237, 23, 70),color(55, 255, 0),color(230, 195, 18),color(0, 21, 250),color(245, 0, 245),color(125, 129, 179),color(49, 245, 0),color(138, 129, 10),color(103, 168, 151),color(247, 10, 223),color(8, 8, 8),color(255, 5, 5),color(237, 23, 70),color(55, 255, 0),color(230, 195, 18),color(0, 21, 250),color(245, 0, 245),color(125, 129, 179),color(49, 245, 0),color(138, 129, 10),color(103, 168, 151),color(247, 10, 223),color(8, 8, 8),color(255, 5, 5),color(237, 23, 70),color(55, 255, 0),color(230, 195, 18),color(0, 21, 250),color(245, 0, 245),color(125, 129, 179),color(49, 245, 0),color(138, 129, 10),color(103, 168, 151),color(247, 10, 223),color(8, 8, 8),color(255, 5, 5),color(237, 23, 70),color(55, 255, 0),color(230, 195, 18),color(0, 21, 250),color(245, 0, 245),color(125, 129, 179),color(49, 245, 0),color(138, 129, 10),color(103, 168, 151),color(247, 10, 223),color(8, 8, 8),color(255, 5, 5),color(122, 109, 181),color(163, 96, 96),color(247, 89, 10),color(95, 156, 78),color(73, 165, 173),color(184, 149, 149),color(150, 93, 148),color(209, 25, 209),color(239, 252, 0),color(238, 0, 255),color(139, 184, 128)];//*71 couleur des goutte d'eau *//
+
+
+
+var pluieImage=[(getImage("avatars/mr-pink"),100,100,25,25), (getImage("avatars/spunky-sam-red"),30,70,25,25),(getImage("space/star"),250,200,25,25),(getImage("avatars/starky-seed"),300,350,25,25),(getImage("avatars/primosaur-seed"),380,80,25,25)];//*5*//
+
+var posIx=[25,100,200,300,390];//*5*//
+var posIy=[-50,-50,-50,-50,-50];//*5*//
+var P=0;
+
+var yPositionss=[200,205,230,260,280,310,340,360,400,180,160,140,120,100,80,60,40,20,1,10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,50,60,80,90,150,180,200,240,260,270,240,10];
+
+var xPositionss =[0,250,90,12,120,30,-30,150,-100,-130,60,-60,-100,0,50,-50,300,110,-200,-300,-250,-350,-50,-180,-210,-260,-84,150,360,-400,-370,-150,-50,-100,-120,-140,100,-200,-350,-300,280,-260,-310,-340,-290,370,150,-200,-260,-210,-180,240,225,190,284,384,300,-310,-400,-300,400,500,-600,-350,400,-450,-460,-510,80,-391,-601,];
+
+
+var generator = new Random(1);
+
+draw = function() {
+    background(0, 0, 0);
+       
+         
+     for (var i = 0; i < xPositions.length; i++)// boucle qui relie la position de l'index par rapport a la position de la goutte 
+    {
+    noStroke();
+    fill(couleur[i]);//couleur 
+    ellipse( xPositions[i], yPositions[i], 5, 10);//la goute d'eau 
+    if (yPositions[i]>width)
+    {yPositions[i]=0;}
+    //condition de déplacement de la goutte 
+    //Attention  bien placer :if (yPositions[i]>400){yPositions[i]=0; avant la prochaine ligne sinon elle ne fonctione plus 
+    yPositions[i] +=15;}//fait tombée la goute 
+        posIx[P]+=1;
+    //* pluieImage+=1 if (pluieImage[0]
+   
+      
+      
+      
+      
+      
+       for (var k=0; k<71 ; k++) { 
+        var etoile = getImage("space/star"); 
+        image(etoile,xPositionss[k],yPositionss[k],15,15);
+    
+    yPositionss[k]+=5;
+    
+    if (yPositionss[k]> width )
+    {yPositionss[k] =0;}}
+     
+     
+     
+     
+  
+  
+    
+    
+    
+    
+    
+    
+    mouseClicked = function() //Fait apparaitre une goutte à l'endroit cliquer 
+    {
+      xPositions.push(mouseX);
+      yPositions.push(mouseY);
+      
+    };
+    
+var nextNum = generator.nextGaussian();
+ellipse(nextNum*100+width/2, random(0, 400), 50, 50);
+};
+
+draw();
