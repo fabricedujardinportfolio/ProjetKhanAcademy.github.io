@@ -1,0 +1,45 @@
+// cheveux 
+fill(214, 162, 51);
+rect(101, 21, 195, 156, 10);
+//corp
+strokeWeight(220);
+line(201,420,200,350);
+noStroke();
+// Téte 
+fill(212, 217, 143);
+ellipse(200, 200, 197, 285);
+
+//yeux
+fill(252, 252, 252);
+ellipse(150,170,25,20);
+fill(74, 168, 80);
+ellipse(150,170,15,14);
+noFill();
+fill(5, 5, 5);
+ellipse(150,170,5,5);
+noFill();
+fill(255, 255, 255);
+ellipse(250,170,25,20);
+fill(74, 168, 80);
+ellipse(250,170,15,15);
+fill(5, 5, 5);
+ellipse(250,170,5,5);
+//bouche
+
+noFill();
+stroke(69, 71, 45);
+strokeWeight(5);
+arc(200, 252, 129, 100, -1, 184);
+
+//nez 
+line(212,220,200,192);
+arc(197, 224, 32, 20, -25, 117);
+
+//oreil
+noStroke();
+fill(212, 217, 143);
+triangle(310,199,292,205,303,174);
+stroke(212, 217, 143);
+triangle(92,179,92,197,105,200);
+
+
