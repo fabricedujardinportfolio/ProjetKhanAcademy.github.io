@@ -1,0 +1,72 @@
+background(89, 216, 255);
+
+
+var couleur = color(random(0,255));
+
+
+var algues = function(positionX,positionY,alguesHauteur,alguesLargeur,couleur)
+{
+    noStroke();
+   
+    //algues
+    ellipse(positionX,positionY,alguesHauteur,alguesLargeur);
+    
+};
+
+var poisson = function(centerX, centerY,bodyLength,bodyHeight,couleur) {
+
+noStroke();
+
+fill(couleur);
+// body
+ellipse(centerX, centerY, bodyLength, bodyHeight);
+// tail
+var tailWidth = bodyLength/4;
+var tailHeight = bodyHeight/2;
+triangle(centerX-bodyLength/2, centerY,
+         centerX-bodyLength/2-tailWidth, centerY-tailHeight,
+         centerX-bodyLength/2-tailWidth, centerY+tailHeight);
+// eye
+fill(0, 0, 0);
+ellipse(centerX+bodyLength/4, centerY, bodyHeight/5, bodyHeight/5);
+
+};
+
+
+draw= function() {
+algues(50,350,13,150);
+algues(100,350,13,150);
+algues(150,350,13,150);
+algues(200,350,13,150);
+algues(250,350,13,150);
+algues(350,350,13,150);
+algues(300,350,13,150);
+algues(370,350,13,150);
+algues(270,350,13,150);
+algues(70,350,13,150);
+algues(25,350,13,150);
+algues(175,350,13,150);
+algues(225,350,13,150);
+algues(125,350,13,150);
+algues(325,350,13,150);
+algues(5,350,13,150);
+algues(389,350,13,150);
+poisson(56,200,100,50,couleur);
+poisson(303,252,200,110,couleur);
+poisson(303,124,70,85,couleur+50);
+poisson(350,60,180,77,couleur-100);
+poisson(66,100,60,50 , couleur-200);
+poisson(150,307,110,80, couleur+200);
+poisson(10,371,160,60,couleur+200);
+poisson(270,371,80,24,couleur-300);
+fill(56, 150, 19);
+
+       
+   
+    };    
+    
+    
+    mouseClicked = function (){
+    poisson(mouseX,mouseY,50,30,color(random(50,250)));
+    
+    };
